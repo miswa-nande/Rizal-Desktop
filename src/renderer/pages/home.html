@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rizal Digital Museum</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1 class="museum-title">Rizal Digital Museum</h1>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item active" data-page="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">Home</span>
+                </li>
+                <li class="nav-item" data-page="life">
+                    <span class="nav-icon">👤</span>
+                    <span class="nav-label">Life of Rizal</span>
+                </li>
+                <li class="nav-item" data-page="works">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">Works of Rizal</span>
+                </li>
+                <li class="nav-item" data-page="gallery">
+                    <span class="nav-icon">🖼️</span>
+                    <span class="nav-label">Gallery</span>
+                </li>
+                <li class="nav-item" data-page="interactive">
+                    <span class="nav-icon">🎮</span>
+                    <span class="nav-label">Interactive Zone</span>
+                </li>
+                <li class="nav-item" data-page="about">
+                    <span class="nav-icon">ℹ️</span>
+                    <span class="nav-label">About</span>
+                </li>
+                <li class="nav-item" data-page="exit">
+                    <span class="nav-icon">🚪</span>
+                    <span class="nav-label">Exit</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1 class="page-title">Welcome to the Rizal Digital Museum</h1>
+                    <p class="page-subtitle">Explore the life, works, and legacy of Dr. José Rizal in an immersive
+                        digital experience.</p>
+                </div>
+
+                <div class="hero-section">
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img src="../../assets/images/rizal-portrait.jpg" alt="Dr. José Rizal"
+                                class="rizal-portrait"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="placeholder-portrait" style="display: none;">
+                                <span>Dr. José Rizal</span>
+                            </div>
+                        </div>
+                        <div class="hero-quote">
+                            <p>"He who does not love his own language is worse than a beast and a putrid fish."</p>
+                            <span class="quote-author">— Dr. José Rizal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-cards">
+                    <div class="feature-card" data-navigate="life">
+                        <div class="card-icon">👤</div>
+                        <h3>Life of Rizal</h3>
+                        <p>Discover his journey from childhood to martyrdom.</p>
+                        <div class="card-arrow">→</div>
+                    </div>
+                    <div class="feature-card" data-navigate="works">
+                        <div class="card-icon">📚</div>
+                        <h3>Works of Rizal</h3>
+                        <p>Explore his novels, essays, and letters.</p>
+                        <div class="card-arrow">→</div>
+                    </div>
+                    <div class="feature-card" data-navigate="gallery">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Gallery</h3>
+                        <p>View images, artifacts, and manuscripts.</p>
+                        <div class="card-arrow">→</div>
+                    </div>
+                </div>
+
+                <div class="quick-facts">
+                    <h2 class="section-title">Quick Facts</h2>
+                    <div class="facts-grid">
+                        <div class="fact-item">
+                            <div class="fact-icon">📅</div>
+                            <div class="fact-content">
+                                <h4>Born</h4>
+                                <p>June 19, 1861<br>Calamba, Laguna</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">🎓</div>
+                            <div class="fact-content">
+                                <h4>Education</h4>
+                                <p>Ateneo Municipal<br>Universidad Central de Madrid</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">✍️</div>
+                            <div class="fact-content">
+                                <h4>Notable Works</h4>
+                                <p>Noli Me Tangere<br>El Filibusterismo</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">⭐</div>
+                            <div class="fact-content">
+                                <h4>Legacy</h4>
+                                <p>National Hero<br>of the Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/navigation.js"></script>
+</body>
+
+</html>

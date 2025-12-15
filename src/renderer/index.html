@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizal Digital Museum</title>
+    <script>
+        // Redirect to home page
+        window.location.href = 'pages/home.html';
+    </script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1 class="museum-title">Rizal Digital Museum</h1>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item active" data-page="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">Home</span>
+                </li>
+                <li class="nav-item" data-page="life">
+                    <span class="nav-icon">👤</span>
+                    <span class="nav-label">Life of Rizal</span>
+                </li>
+                <li class="nav-item" data-page="works">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">Works of Rizal</span>
+                </li>
+                <li class="nav-item" data-page="gallery">
+                    <span class="nav-icon">🖼️</span>
+                    <span class="nav-label">Gallery</span>
+                </li>
+                <li class="nav-item" data-page="interactive">
+                    <span class="nav-icon">🎮</span>
+                    <span class="nav-label">Interactive Zone</span>
+                </li>
+                <li class="nav-item" data-page="about">
+                    <span class="nav-icon">ℹ️</span>
+                    <span class="nav-label">About</span>
+                </li>
+                <li class="nav-item" data-page="exit">
+                    <span class="nav-icon">🚪</span>
+                    <span class="nav-label">Exit</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Home Page -->
+            <div id="home-page" class="page active">
+                <div class="page-header">
+                    <h1 class="page-title">Welcome to the Rizal Digital Museum</h1>
+                    <p class="page-subtitle">Explore the life, works, and legacy of Dr. José Rizal in an immersive
+                        digital experience.</p>
+                </div>
+
+                <div class="hero-section">
+                    <div class="hero-image">
+                        <img src="../assets/images/rizal-portrait.jpg" alt="Dr. José Rizal" class="rizal-portrait">
+                        <div class="hero-quote">
+                            <p>"He who does not love his own language is worse than a beast and a putrid fish."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-cards">
+                    <div class="feature-card" data-navigate="life">
+                        <div class="card-icon">👤</div>
+                        <h3>Life of Rizal</h3>
+                        <p>Discover his journey from childhood to martyrdom.</p>
+                    </div>
+                    <div class="feature-card" data-navigate="works">
+                        <div class="card-icon">📚</div>
+                        <h3>Works of Rizal</h3>
+                        <p>Explore his novels, essays, and letters.</p>
+                    </div>
+                    <div class="feature-card" data-navigate="gallery">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Gallery</h3>
+                        <p>View images, artifacts, and manuscripts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Life of Rizal Page -->
+            <div id="life-page" class="page">
+                <div class="page-header">
+                    <h1 class="page-title">Life of Dr. José Rizal</h1>
+                    <p class="page-subtitle">Journey through the remarkable life of the Philippines' national hero.</p>
+                </div>
+
+                <div class="life-sections">
+                    <div class="life-section">
+                        <h2>Childhood & Family</h2>
+                        <div class="section-content">
+                            <div class="content-placeholder">
+                                <p>José Protasio Rizal Mercado y Alonso Realonda was born on June 19, 1861, in Calamba,
+                                    Laguna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="life-section">
+                        <h2>Education</h2>
+                        <div class="section-content">
+                            <div class="content-placeholder">
+                                <p>Received his Bachelor of Arts degree from Ateneo Municipal de Manila in 1877.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="life-section">
+                        <h2>Travels Abroad</h2>
+                        <div class="section-content">
+                            <div class="content-placeholder">
+                                <p>Traveled to Europe to study medicine and literature, writing his famous novels.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="life-section">
+                        <h2>Martyrdom</h2>
+                        <div class="section-content">
+                            <div class="content-placeholder">
+                                <p>"Ang hindi marunong lumingon sa pinanggalingan ay hindi makakarating sa paroroonan."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Works Page -->
+            <div id="works-page" class="page">
+                <div class="page-header">
+                    <h1 class="page-title">Works of Rizal</h1>
+                    <p class="page-subtitle">Literary masterpieces that awakened a nation.</p>
+                </div>
+
+                <div class="works-grid">
+                    <div class="work-card">
+                        <h3>Noli Me Tangere</h3>
+                        <p>Published in 1887, this novel exposed the abuses of Spanish colonial rule.</p>
+                    </div>
+                    <div class="work-card">
+                        <h3>El Filibusterismo</h3>
+                        <p>The sequel to Noli, published in 1891, depicting the revolution's consequences.</p>
+                    </div>
+                    <div class="work-card">
+                        <h3>Mi Último Adiós</h3>
+                        <p>His final poem, written on the eve of his execution.</p>
+                    </div>
+                    <div class="work-card">
+                        <h3>Letters and Essays</h3>
+                        <p>Correspondence and writings on reform and nationalism.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Page -->
+            <div id="gallery-page" class="page">
+                <div class="page-header">
+                    <h1 class="page-title">Gallery</h1>
+                    <p class="page-subtitle">Historical photos, artifacts, and manuscripts.</p>
+                </div>
+
+                <div class="gallery-categories">
+                    <div class="category-tab active" data-category="photos">Photos</div>
+                    <div class="category-tab" data-category="artifacts">Artifacts</div>
+                    <div class="category-tab" data-category="manuscripts">Manuscripts</div>
+                    <div class="category-tab" data-category="sketches">Sketches</div>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="placeholder-image">Photo 1</div>
+                        <p>Historical photograph</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="placeholder-image">Photo 2</div>
+                        <p>Historical photograph</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="placeholder-image">Photo 3</div>
+                        <p>Historical photograph</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Zone Page -->
+            <div id="interactive-page" class="page">
+                <div class="page-header">
+                    <h1 class="page-title">Interactive Zone</h1>
+                    <p class="page-subtitle">Engage with Rizal's life through interactive experiences, multimedia, and
+                        educational activities.</p>
+                </div>
+
+                <div class="interactive-content">
+                    <p>Interactive features coming soon...</p>
+                </div>
+            </div>
+
+            <!-- About Page -->
+            <div id="about-page" class="page">
+                <div class="page-header">
+                    <h1 class="page-title">About the Rizal Digital Museum</h1>
+                </div>
+
+                <div class="about-content">
+                    <div class="museum-info">
+                        <h2>Museum Overview & Purpose</h2>
+                        <div class="info-card">
+                            <img src="../assets/images/team-photo.jpg" alt="Development Team" class="team-photo">
+                            <div class="info-text">
+                                <p>This digital museum was created to preserve and share the legacy of Dr. José Rizal,
+                                    the Philippines' national hero. Through interactive exhibits and multimedia
+                                    presentations, visitors can explore his life, works, and lasting impact on
+                                    Philippine history and culture.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contributors-section">
+                        <h2>Contributors</h2>
+
+                        <div class="team-section">
+                            <h3>Front End</h3>
+                            <div class="contributors-grid">
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Jonelle Dela Torre</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Angelica Galotino</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Kyle Tibar</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Harly Elep</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Byron Calajate</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Charles Henly Penamante</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Butch Uy</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Nicole Volante</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Ruby Jean Ruivivar</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-section">
+                            <h3>Data Gathering</h3>
+                            <div class="contributors-grid">
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Adrian Alto</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Vincent Estonactoc</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Rue Abando</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Jayzel Tabaquin</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Chatrina Saman</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Daniela Calpe</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Ed Cabanela</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Erica Quibral</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>John Paul Quibral</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Julius Patrick Belgica</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Prince Gonzaga</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Vaugn Arce</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>RJ Delos Reyes</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-section">
+                            <h3>Back End</h3>
+                            <div class="contributors-grid">
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Kenji Mazo</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Charles Ivan O. De Vera</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>Lorenz Carino</p>
+                                </div>
+                                <div class="contributor">
+                                    <div class="contributor-avatar"></div>
+                                    <p>JP Elevado</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-credits">
+                    <p>A digital exhibit created by BSIT 3A Students — 2025</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

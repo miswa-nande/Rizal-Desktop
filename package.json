@@ -1,4 +1,13 @@
 {
+  "name": "rizal-digital-museum",
+  "version": "1.0.0",
+  "description": "Interactive Digital Museum for Dr. Jose Rizal",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "build": "electron-builder"
+  },
   "devDependencies": {
     "electron": "^39.2.6"
   }
