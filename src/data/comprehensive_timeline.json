@@ -1,0 +1,990 @@
+{
+  "timeline_events": [
+    {
+      "date": "June 19, 1861",
+      "title": "Birth of José Rizal",
+      "category": "Early Life",
+      "location": "Calamba, Laguna",
+      "description": "José Protasio Rizal Mercado y Alonso Realonda was born at 11:30 PM in Calamba, Laguna. He was the seventh child of Francisco Mercado Rizal and Teodora Alonso Realonda. The family lived in a two-story house made of stone and wood, one of the wealthiest families in the town.",
+      "significance": "Birth of the future national hero of the Philippines",
+      "image_filename": "francisco_theodora.png",
+      "details": [
+        "Born during a full moon on Wednesday night",
+        "Named José after Saint Joseph, Protasio after two saints, Rizal from 'ricial' meaning green field",
+        "Baptized three days later on June 22, 1861 at the Catholic church in Calamba",
+        "His godfather was Father Pedro Casañas",
+        "The Rizal family owned land and were involved in sugar production and trade"
+      ]
+    },
+    {
+      "date": "1862-1865",
+      "title": "Early Childhood Development",
+      "category": "Early Life",
+      "location": "Calamba, Laguna",
+      "description": "During his early years, José showed exceptional intelligence and curiosity. His mother Teodora became his first teacher, teaching him the alphabet, prayers, and stories. He learned to read at age three and could write by age five.",
+      "significance": "Foundation of his intellectual development",
+      "details": [
+        "Learned the alphabet from his mother at age 3",
+        "Could read the Spanish family Bible by age 5",
+        "Showed early artistic talent in drawing and clay modeling",
+        "His mother told him stories and legends that sparked his imagination",
+        "Developed love for nature, collecting shells, insects, and stones",
+        "Close relationship with his older brother Paciano who guided him"
+      ]
+    },
+    {
+      "date": "1868",
+      "title": "First Poem: Sa Aking Mga Kabatà",
+      "category": "Literary Works",
+      "location": "Calamba, Laguna",
+      "description": "At age 8, Rizal allegedly wrote his first poem 'Sa Aking Mga Kabatà' (To My Fellow Children), emphasizing the importance of loving one's native language. Though authorship is debated by scholars, it reflects early nationalist sentiments.",
+      "significance": "First expression of love for native language and country",
+      "details": [
+        "Written in Tagalog, his native language",
+        "Famous line: 'Ang hindi marunong magmahal sa sariling wika ay higit pa sa hayop at malansang isda'",
+        "Showed early awareness of Filipino identity",
+        "Demonstrated poetic talent at a young age"
+      ]
+    },
+    {
+      "date": "June 1869",
+      "title": "Formal Education Begins in Biñan",
+      "category": "Education",
+      "location": "Biñan, Laguna",
+      "description": "At age 9, Rizal was sent to Biñan to study under Maestro Justiniano Aquino Cruz. This was his first experience away from home. He excelled in his studies and also learned painting and sculpture.",
+      "significance": "Beginning of formal education outside the home",
+      "image_filename": "rizal_binan.jpg",
+      "details": [
+        "Accompanied by his brother Paciano to Biñan",
+        "Stayed at the house of his aunt",
+        "Studied Latin, Spanish, and religious subjects",
+        "Experienced corporal punishment common in schools of that era",
+        "Engaged in academic competitions with other students",
+        "Learned drawing and painting from local artists",
+        "Developed competitive spirit and determination to excel"
+      ]
+    },
+    {
+      "date": "February 17, 1872",
+      "title": "Execution of GOMBURZA",
+      "category": "Historical Events",
+      "location": "Bagumbayan, Manila",
+      "description": "Three Filipino priests—Fathers Mariano Gómez (85 years old), José Burgos (35 years old), and Jacinto Zamora (37 years old)—were publicly executed by garrote for their alleged involvement in the Cavite Mutiny. This event profoundly affected the 10-year-old Rizal and awakened his nationalist consciousness.",
+      "significance": "Pivotal event that shaped Rizal's nationalist awakening",
+      "image_filename": "gomburza.jpg",
+      "details": [
+        "The priests were accused of masterminding the Cavite Mutiny of January 20, 1872",
+        "Executed without sufficient evidence, victims of Spanish colonial injustice",
+        "Father Burgos was a friend of Rizal's brother Paciano",
+        "The execution was meant to intimidate Filipino reformists",
+        "This event inspired Rizal to dedicate El Filibusterismo to their memory",
+        "Marked the beginning of Filipino nationalist movement",
+        "Young Rizal learned about injustice and martyrdom for one's beliefs"
+      ]
+    },
+    {
+      "date": "June 10, 1872",
+      "title": "Enrollment at Ateneo Municipal de Manila",
+      "category": "Education",
+      "location": "Manila",
+      "description": "At age 11, Rizal enrolled at Ateneo Municipal de Manila, a prestigious school run by Jesuit priests. He used the surname 'Rizal' instead of 'Mercado' to avoid association with his brother Paciano's liberal views.",
+      "significance": "Beginning of higher education that shaped his intellectual development",
+      "details": [
+        "Initially placed in the inferior class due to his small size and young age",
+        "Quickly proved his abilities and was promoted",
+        "Joined the 'Internos' (boarders) group",
+        "Became a member of the Marian Congregation",
+        "Studied under excellent Jesuit teachers",
+        "Curriculum included Latin, Greek, Spanish, French, English, history, mathematics, and sciences"
+      ]
+    },
+    {
+      "date": "1872-1877",
+      "title": "Academic Excellence at Ateneo",
+      "category": "Education",
+      "location": "Manila",
+      "description": "During his five years at Ateneo, Rizal consistently received top grades and won numerous academic prizes. He was a member of the Ateneo's honor society and participated in literary and scientific discussions.",
+      "significance": "Established reputation as a brilliant student and scholar",
+      "image_filename": "rizal_at_14.jpg",
+      "details": [
+        "Received 'Sobresaliente' (Outstanding) in all subjects",
+        "Won first prize in Latin, Spanish, and other subjects",
+        "Developed skills in painting and sculpture",
+        "Took private lessons in painting under Agustín Sáez",
+        "Learned to play the flute and became proficient",
+        "Participated in school plays and literary contests",
+        "Developed strong foundation in humanities and sciences",
+        "Formed lifelong friendships with classmates"
+      ]
+    },
+    {
+      "date": "March 23, 1877",
+      "title": "Graduation from Ateneo with Highest Honors",
+      "category": "Education",
+      "location": "Manila",
+      "description": "At age 16, Rizal graduated from Ateneo Municipal with the highest honors, receiving the degree of Bachelor of Arts. He was awarded the title 'Sobresaliente' in all his subjects, making his family extremely proud.",
+      "significance": "Completion of secondary education with exceptional distinction",
+      "details": [
+        "Received Bachelor of Arts degree",
+        "Graduated as class valedictorian",
+        "Awarded gold medals for excellence",
+        "His academic achievements were celebrated by his family",
+        "Established himself as one of the brightest students of his generation"
+      ]
+    },
+    {
+      "date": "April 1877",
+      "title": "Enrollment at University of Santo Tomas",
+      "category": "Education",
+      "location": "Manila",
+      "description": "After graduating from Ateneo, Rizal enrolled at the University of Santo Tomas to study Philosophy and Letters. He later shifted to medicine, partly motivated by his desire to cure his mother's deteriorating eyesight.",
+      "significance": "Beginning of university education and medical studies",
+      "details": [
+        "Initially studied Philosophy and Letters",
+        "Shifted to Medicine in his second year",
+        "Also took courses in surveying at Ateneo",
+        "Experienced discrimination from Dominican professors who favored Spanish students",
+        "Quality of education was inferior compared to Ateneo",
+        "These experiences deepened his awareness of colonial inequalities"
+      ]
+    },
+    {
+      "date": "1879",
+      "title": "Winning 'A La Juventud Filipina' Literary Contest",
+      "category": "Literary Works",
+      "location": "Manila",
+      "description": "At age 18, Rizal won first prize in a literary contest sponsored by the Artistic-Literary Lyceum of Manila for his poem 'A La Juventud Filipina' (To the Filipino Youth). This poem urged Filipino youth to rise and use their talents for the betterment of the nation.",
+      "significance": "First major literary recognition and expression of nationalist ideals",
+      "details": [
+        "Written in Spanish, showcasing his mastery of the language",
+        "Called on Filipino youth to be the 'fair hope of the Fatherland'",
+        "Emphasized the importance of education and enlightenment",
+        "Demonstrated his belief in the potential of the Filipino people",
+        "Established him as a promising writer and poet",
+        "The poem became an inspiration for Filipino youth"
+      ]
+    },
+    {
+      "date": "1880",
+      "title": "Winning 'El Consejo de los Dioses' Contest",
+      "category": "Literary Works",
+      "location": "Manila",
+      "description": "Rizal won another literary contest with his allegorical play 'El Consejo de los Dioses' (The Council of the Gods), competing against Spanish and Filipino writers. The play discussed which among three great writers deserved the laurel of victory.",
+      "significance": "Further recognition of literary talent and intellectual prowess",
+      "details": [
+        "An allegorical drama in one act",
+        "Featured Greek gods judging between Homer, Virgil, and Cervantes",
+        "Demonstrated his knowledge of classical literature",
+        "Showcased his dramatic writing skills",
+        "Won against established Spanish writers"
+      ]
+    },
+    {
+      "date": "1881",
+      "title": "Completion of Surveying Course",
+      "category": "Education",
+      "location": "Manila",
+      "description": "While studying medicine at UST, Rizal also completed a course in surveying at Ateneo. He received his title as 'perito agrimensor' (expert surveyor), demonstrating his diverse intellectual interests.",
+      "significance": "Acquired practical skills beyond medicine",
+      "details": [
+        "Studied surveying alongside medical studies",
+        "Received professional certification as surveyor",
+        "Later used these skills in Dapitan during his exile",
+        "Created maps and planned civic projects using surveying knowledge"
+      ]
+    },
+    {
+      "date": "May 3, 1882",
+      "title": "Secret Departure for Spain",
+      "category": "Travels",
+      "location": "Manila to Singapore",
+      "description": "At age 21, Rizal secretly left the Philippines aboard the Spanish steamer Salvadora, bound for Singapore. He traveled under the name 'José Mercado' to avoid detection by Spanish authorities. His family, especially his brother Paciano, supported this decision despite the financial burden.",
+      "significance": "Beginning of his journey to Europe for further studies and exposure to liberal ideas",
+      "image_filename": "singapore.jpg",
+      "details": [
+        "Left without informing his parents to spare them worry",
+        "Only his brother Paciano and close relatives knew",
+        "Carried letters of recommendation from Filipino and Spanish friends",
+        "Brought limited funds, relying on family support",
+        "First time leaving the Philippines",
+        "Journey marked the beginning of his transformation into a reformist"
+      ]
+    },
+    {
+      "date": "May 1882",
+      "title": "First Stop: Singapore",
+      "category": "Travels",
+      "location": "Singapore",
+      "description": "Rizal's first stop was Singapore, a British colony. He was impressed by the cleanliness, orderliness, and prosperity of the city. He noted the efficient British colonial administration and the multicultural nature of Singapore's population.",
+      "significance": "First exposure to a different colonial system",
+      "details": [
+        "Observed British colonial governance",
+        "Noted the cleanliness and organization of the city",
+        "Compared British administration to Spanish rule in the Philippines",
+        "Saw how different ethnic groups coexisted",
+        "Stayed briefly before continuing to Europe"
+      ]
+    },
+    {
+      "date": "May-June 1882",
+      "title": "Journey Through Suez Canal and Mediterranean",
+      "category": "Travels",
+      "location": "Egypt, Mediterranean Sea",
+      "description": "Rizal passed through the Suez Canal, marveling at this engineering feat. He briefly stopped in Egypt and was awed by the ancient pyramids and the rich history of Egyptian civilization. He then sailed through the Mediterranean to Europe.",
+      "significance": "Exposure to ancient civilizations and modern engineering",
+      "details": [
+        "Amazed by the Suez Canal's construction",
+        "Visited the pyramids of Giza",
+        "Studied Egyptian history and culture",
+        "Deepened appreciation for ancient civilizations",
+        "Reflected on the achievements of non-European cultures"
+      ]
+    },
+    {
+      "date": "June 1882",
+      "title": "Arrival in Europe - Marseilles and Barcelona",
+      "category": "Travels",
+      "location": "France and Spain",
+      "description": "Rizal arrived in Marseilles, France, and then traveled to Barcelona, Spain. He was struck by the beauty of Spanish cities and their cultural vibrancy. However, he also observed the political turmoil in Spain.",
+      "significance": "First arrival in Europe, beginning of European education",
+      "details": [
+        "Impressed by European architecture and culture",
+        "Observed the gap between liberal Spain and colonial Philippines",
+        "Made initial contacts with Spanish liberals",
+        "Prepared to continue to Madrid for university studies"
+      ]
+    },
+    {
+      "date": "September 1882",
+      "title": "Enrollment at Universidad Central de Madrid",
+      "category": "Education",
+      "location": "Madrid, Spain",
+      "description": "Rizal enrolled at the Universidad Central de Madrid to continue his medical studies and also took courses in philosophy and letters. Madrid became his base for three years of intensive study.",
+      "significance": "Beginning of formal European education",
+      "details": [
+        "Studied Medicine, Philosophy, and Letters",
+        "Attended lectures by renowned professors",
+        "Lived frugally to manage limited funds",
+        "Spent time in libraries studying Philippine history",
+        "Joined Filipino expatriate circles in Madrid"
+      ]
+    },
+    {
+      "date": "1882-1885",
+      "title": "Active Participation in Propaganda Movement",
+      "category": "Activism",
+      "location": "Madrid, Spain",
+      "description": "In Madrid, Rizal joined Filipino expatriate organizations and became active in the Propaganda Movement, which advocated for reforms in the Philippines. He wrote numerous essays and articles for La Solidaridad newspaper.",
+      "significance": "Beginning of his role as a reformist and propagandist",
+      "details": [
+        "Joined Circulo Hispano-Filipino (Hispano-Philippine Circle)",
+        "Wrote articles under pseudonyms like 'Dimasalang' and 'Laong Laan'",
+        "Advocated for equal rights for Filipinos",
+        "Called for representation in Spanish Cortes",
+        "Demanded secularization of parishes",
+        "Promoted education and enlightenment",
+        "Developed friendships with Spanish liberals who supported Philippine reforms"
+      ]
+    },
+    {
+      "date": "June 21, 1884",
+      "title": "Completion of Licentiate in Medicine",
+      "category": "Education",
+      "location": "Madrid, Spain",
+      "description": "Rizal completed his Licentiate in Medicine at the Universidad Central de Madrid with the grade of 'Aprobado' (Passed). He also earned a Licentiate in Philosophy and Letters, showcasing his diverse intellectual pursuits.",
+      "significance": "Completion of medical degree in Europe",
+      "details": [
+        "Received medical degree after rigorous studies",
+        "Also completed Philosophy and Letters degree",
+        "Thesis topics demonstrated his analytical skills",
+        "Enhanced his reputation as a scholar",
+        "Prepared to specialize in ophthalmology"
+      ]
+    },
+    {
+      "date": "1885",
+      "title": "Move to Paris for Ophthalmology Specialization",
+      "category": "Education",
+      "location": "Paris, France",
+      "description": "After completing his degree in Madrid, Rizal traveled to Paris to specialize in ophthalmology under Dr. Louis de Wecker, a renowned eye specialist. His goal was to learn advanced techniques to cure his mother's deteriorating eyesight.",
+      "significance": "Specialization in ophthalmology to help his mother",
+      "image_filename": "paris.jpg",
+      "details": [
+        "Studied under Dr. Louis de Wecker at Clinique Wecker",
+        "Learned latest ophthalmological techniques",
+        "Attended medical conferences and demonstrations",
+        "Visited hospitals and clinics",
+        "Explored Parisian culture and museums",
+        "Continued writing and political activities",
+        "Observed French Republican system and values of liberty, equality, fraternity"
+      ]
+    },
+    {
+      "date": "February 1886",
+      "title": "Move to Germany - University of Heidelberg",
+      "category": "Education",
+      "location": "Heidelberg, Germany",
+      "description": "Rizal traveled to Germany to continue his ophthalmology studies under Dr. Otto Becker at the University of Heidelberg. He was impressed by German efficiency, discipline, and scientific rigor.",
+      "significance": "Further specialization and exposure to German culture",
+      "details": [
+        "Studied under Professor Otto Becker, a leading ophthalmologist",
+        "Learned German language and culture",
+        "Attended lectures on history and science",
+        "Impressed by German educational system",
+        "Enjoyed the scenic beauty of Heidelberg and the Neckar River",
+        "Made German friends and participated in cultural activities",
+        "Continued his literary work on Noli Me Tangere"
+      ]
+    },
+    {
+      "date": "November 1886",
+      "title": "Move to Berlin to Complete Noli Me Tangere",
+      "category": "Literary Works",
+      "location": "Berlin, Germany",
+      "description": "Rizal moved to Berlin, which became one of his favorite cities. Here he focused on completing his first novel, Noli Me Tangere, while also studying German culture and scientific advancement.",
+      "significance": "Final stages of writing his groundbreaking novel",
+      "details": [
+        "Lived in a modest boarding house to save money",
+        "Worked intensively on completing Noli Me Tangere",
+        "Studied German language, achieving fluency",
+        "Attended scientific and literary circles",
+        "Observed efficient German government and infrastructure",
+        "Developed deep appreciation for German culture and philosophy",
+        "Made lasting friendships with German scholars"
+      ]
+    },
+    {
+      "date": "December 1886",
+      "title": "Completion of Noli Me Tangere Manuscript",
+      "category": "Literary Works",
+      "location": "Berlin, Germany",
+      "description": "Rizal completed the manuscript of Noli Me Tangere in December 1886. The novel exposed the abuses and corruption of Spanish colonial rule in the Philippines through the story of Crisostomo Ibarra.",
+      "significance": "Completion of his first major novel",
+      "image_filename": "noli_1st_edition.png",
+      "details": [
+        "Finished after years of research and writing",
+        "Written in Spanish to reach wider audience",
+        "Drew from personal experiences and observations",
+        "Incorporated real events and characters from Philippine society",
+        "Faced financial difficulties in publishing",
+        "Sought help from friends to fund publication"
+      ]
+    },
+    {
+      "date": "February 21, 1887",
+      "title": "Publication of Noli Me Tangere",
+      "category": "Literary Works",
+      "location": "Berlin, Germany",
+      "description": "Noli Me Tangere was published in Berlin with financial assistance from Maximo Viola, Rizal's friend who lent him money for printing costs. The novel immediately caused controversy and was later banned in the Philippines.",
+      "significance": "Publication of the novel that awakened Filipino national consciousness",
+      "details": [
+        "Published by Berliner Buchdruckerei-Aktiengesellschaft",
+        "Initial print run of 2,000 copies",
+        "Dedicated to the memory of his country and countrymen",
+        "Maximo Viola provided 300 pesos for printing",
+        "Sent copies to friends and family in the Philippines",
+        "Spanish authorities immediately condemned it as subversive",
+        "Banned in the Philippines but circulated secretly",
+        "Became a catalyst for reform and revolutionary movements"
+      ]
+    },
+    {
+      "date": "July 1887",
+      "title": "Visit to Dresden and Leipzig",
+      "category": "Travels",
+      "location": "Germany",
+      "description": "Before returning to the Philippines, Rizal visited other German cities including Dresden and Leipzig. He admired the art collections in Dresden and visited Leipzig, a center of publishing and learning.",
+      "significance": "Final European travels before first return to Philippines",
+      "details": [
+        "Visited museums and art galleries in Dresden",
+        "Studied German publishing industry in Leipzig",
+        "Continued observations of German society and culture",
+        "Prepared for return journey to the Philippines"
+      ]
+    },
+    {
+      "date": "August 1887",
+      "title": "Return to the Philippines After Five Years",
+      "category": "Travels",
+      "location": "Manila, Philippines",
+      "description": "Rizal returned to the Philippines after five years abroad. He was welcomed by his family but was immediately placed under surveillance by Spanish authorities who considered him dangerous because of Noli Me Tangere.",
+      "significance": "First return home as a published author and reformist",
+      "details": [
+        "Joyful reunion with family in Calamba",
+        "Immediately placed under surveillance by Spanish authorities",
+        "Friars condemned him as a heretic and filibustero",
+        "Practiced medicine in Calamba",
+        "Performed successful eye surgery on his mother, partially restoring her sight",
+        "Witnessed worsening conditions and oppression in Calamba",
+        "Documented abuses by Dominican friars against farmers"
+      ]
+    },
+    {
+      "date": "February 1888",
+      "title": "Second Departure - Escape to Hong Kong",
+      "category": "Travels",
+      "location": "Manila to Hong Kong",
+      "description": "Facing increasing threats from Spanish authorities and friars who wanted him arrested or killed, Rizal left the Philippines again in February 1888. He traveled to Hong Kong where he practiced medicine and continued his writing.",
+      "significance": "Escape from persecution, continuation of reform work abroad",
+      "image_filename": "hongkong.jpg",
+      "details": [
+        "Left to avoid arrest and possible assassination",
+        "Governor General Terrero advised him to leave for his safety",
+        "Established medical practice in Hong Kong",
+        "Continued correspondence with fellow reformists",
+        "Maintained contact with family",
+        "Planned next travels and activities"
+      ]
+    },
+    {
+      "date": "February-April 1888",
+      "title": "Visit to Japan",
+      "category": "Travels",
+      "location": "Japan",
+      "description": "Rizal visited Japan and was deeply impressed by Japanese culture, discipline, and cleanliness. He admired how Japan modernized while preserving its culture and successfully resisted Western colonization.",
+      "significance": "Observation of successful Asian modernization",
+      "details": [
+        "Visited Tokyo, Yokohama, and other cities",
+        "Studied Japanese art, theater (Kabuki), and customs",
+        "Fell in love with Seiko Usui (O-Sei-San), a Japanese woman",
+        "Observed Japan's rapid industrialization",
+        "Noted how Japan adopted Western technology while keeping cultural identity",
+        "Saw Japan as a model for what the Philippines could become",
+        "Impressed by Japanese cleanliness and discipline",
+        "Studied Japanese language and writing system"
+      ]
+    },
+    {
+      "date": "April-May 1888",
+      "title": "Journey Across the United States",
+      "category": "Travels",
+      "location": "United States",
+      "description": "Rizal crossed the Pacific Ocean and arrived in San Francisco, then traveled by train across the United States to New York. He observed American democracy, industrialization, and also noted racial discrimination.",
+      "significance": "Exposure to American democracy and society",
+      "image_filename": "us.jpg",
+      "details": [
+        "Arrived in San Francisco after trans-Pacific voyage",
+        "Traveled by train across the American continent",
+        "Observed American democratic institutions",
+        "Impressed by American industrialization and progress",
+        "Noted racial discrimination against Chinese and other minorities",
+        "Visited major cities including Chicago and New York",
+        "Compared American freedom with Spanish colonial oppression",
+        "Observed the vast American landscape and natural resources"
+      ]
+    },
+    {
+      "date": "May 1888",
+      "title": "Arrival in London, England",
+      "category": "Travels",
+      "location": "London, England",
+      "description": "Rizal arrived in London and made it his base for several months. He spent long hours at the British Museum researching Philippine history and culture, particularly annotating Antonio de Morga's historical work.",
+      "significance": "Important period of historical research and writing",
+      "image_filename": "london.jpg",
+      "details": [
+        "Lived in London for nearly a year",
+        "Spent days at the British Museum Library",
+        "Researched Philippine history and pre-colonial civilization",
+        "Annotated Morga's 'Sucesos de las Islas Filipinas'",
+        "Studied British parliamentary democracy",
+        "Impressed by British civil liberties and rule of law",
+        "Continued writing articles for La Solidaridad",
+        "Developed friendships with British scholars and Filipino expatriates",
+        "Observed the British Museum's vast collections"
+      ]
+    },
+    {
+      "date": "December 1888",
+      "title": "Publication of 'Filipinas Dentro de Cien Años'",
+      "category": "Literary Works",
+      "location": "London, England",
+      "description": "Rizal began writing his essay series 'The Philippines A Century Hence,' predicting the future of the Philippines under continued Spanish rule and advocating for reforms.",
+      "significance": "Important political essay warning of revolution",
+      "details": [
+        "Published in La Solidaridad in installments",
+        "Predicted three possible futures for the Philippines",
+        "Warned that without reforms, revolution was inevitable",
+        "Advocated for peaceful change through education and enlightenment",
+        "Demonstrated his political analysis and foresight"
+      ]
+    },
+    {
+      "date": "January 1889",
+      "title": "Move to Paris",
+      "category": "Travels",
+      "location": "Paris, France",
+      "description": "Rizal returned to Paris where he attended the Exposition Universelle of 1889, celebrating the centennial of the French Revolution. He saw the newly built Eiffel Tower and continued his medical practice and writing.",
+      "significance": "Exposure to celebration of liberty and human rights",
+      "details": [
+        "Attended the 1889 World's Fair (Exposition Universelle)",
+        "Saw the Eiffel Tower, newly completed for the exposition",
+        "Witnessed celebrations of French Revolution centennial",
+        "Continued medical practice",
+        "Participated in Filipino expatriate activities",
+        "Wrote essays and articles",
+        "Observed French emphasis on liberty, equality, and fraternity"
+      ]
+    },
+    {
+      "date": "1889",
+      "title": "Writing 'Sobre la Indolencia de los Filipinos'",
+      "category": "Literary Works",
+      "location": "Paris, France",
+      "description": "Rizal wrote his important essay 'The Indolence of the Filipinos,' defending Filipinos against Spanish accusations of laziness and explaining the historical and social factors behind perceived indolence.",
+      "significance": "Defense of Filipino character and analysis of colonial impact",
+      "details": [
+        "Published in La Solidaridad in five installments",
+        "Refuted Spanish claims that Filipinos were naturally lazy",
+        "Explained how Spanish colonial policies created indolence",
+        "Cited historical evidence of Filipino industry before Spanish arrival",
+        "Analyzed impact of forced labor, tribute, and exploitation",
+        "Demonstrated his skills in historical and sociological analysis"
+      ]
+    },
+    {
+      "date": "1890",
+      "title": "Move to Brussels, Belgium",
+      "category": "Travels",
+      "location": "Brussels, Belgium",
+      "description": "Rizal moved to Brussels seeking a quieter environment to focus on writing his second novel, El Filibusterismo. He lived modestly to save money and worked intensively on the manuscript.",
+      "significance": "Period of intensive work on second novel",
+      "details": [
+        "Lived in a modest boarding house",
+        "Worked on El Filibusterismo manuscript",
+        "Continued correspondence with reformists and family",
+        "Observed Belgian society and politics",
+        "Lived frugally to manage limited funds",
+        "Focused on completing his second novel"
+      ]
+    },
+    {
+      "date": "1890",
+      "title": "Annotation of Morga's 'Sucesos de las Islas Filipinas'",
+      "category": "Literary Works",
+      "location": "London/Brussels",
+      "description": "Rizal completed his annotations to Antonio de Morga's historical work 'Sucesos de las Islas Filipinas' (Events in the Philippine Islands), providing corrections and insights that highlighted the advanced civilization of pre-colonial Philippines.",
+      "significance": "Important historical work reclaiming Philippine heritage",
+      "details": [
+        "Annotated Morga's 1609 account of the Philippines",
+        "Corrected Spanish biases and errors",
+        "Highlighted achievements of pre-colonial Filipino civilization",
+        "Demonstrated that Filipinos had rich culture before Spanish arrival",
+        "Challenged Spanish narrative of bringing civilization to savages",
+        "Used historical evidence to support Filipino dignity and capability"
+      ]
+    },
+    {
+      "date": "1891",
+      "title": "Move to Ghent, Belgium",
+      "category": "Travels",
+      "location": "Ghent, Belgium",
+      "description": "Rizal moved to Ghent to complete and publish his second novel, El Filibusterismo. He chose Ghent because printing costs were cheaper there than in other European cities.",
+      "significance": "Final location for completing second novel",
+      "details": [
+        "Moved to Ghent for cheaper printing costs",
+        "Finished writing El Filibusterismo",
+        "Lived very frugally during this period",
+        "Worked with local printers to publish the novel",
+        "Prepared to return to Asia after publication"
+      ]
+    },
+    {
+      "date": "September 18, 1891",
+      "title": "Publication of El Filibusterismo",
+      "category": "Literary Works",
+      "location": "Ghent, Belgium",
+      "description": "El Filibusterismo (The Reign of Greed), Rizal's second novel and the darker sequel to Noli Me Tangere, was published in Ghent. The novel was dedicated to the memory of GOMBURZA and explored themes of revolution and reform.",
+      "significance": "Publication of second major novel",
+      "details": [
+        "Published by F. Meyer-Van Loo Press in Ghent",
+        "Dedicated to GOMBURZA (Gómez, Burgos, Zamora)",
+        "Darker and more revolutionary in tone than Noli",
+        "Depicted the failure of peaceful reforms",
+        "Explored the path toward violent revolution",
+        "Spanish authorities later used it as evidence against Rizal",
+        "Showed Rizal's growing disillusionment with Spanish government"
+      ]
+    },
+    {
+      "date": "October 1891",
+      "title": "Return to Hong Kong",
+      "category": "Travels",
+      "location": "Hong Kong",
+      "description": "After publishing El Filibusterismo, Rizal returned to Hong Kong where he established a successful ophthalmology practice. He also brought family members from the Philippines to safety in Hong Kong.",
+      "significance": "Establishment of medical practice and family refuge",
+      "details": [
+        "Set up ophthalmology clinic in Hong Kong",
+        "Treated patients and earned good income",
+        "Brought his mother and sisters to Hong Kong for safety",
+        "Continued writing and corresponding with reformists",
+        "Prepared plans for La Liga Filipina",
+        "Maintained hope for peaceful reforms in the Philippines"
+      ]
+    },
+    {
+      "date": "June 26, 1892",
+      "title": "Third Return to Manila",
+      "category": "Travels",
+      "location": "Manila, Philippines",
+      "description": "Despite warnings from friends and family about the danger, Rizal returned to the Philippines with the goal of establishing La Liga Filipina, a civic organization aimed at uniting Filipinos and advocating for reforms through peaceful means.",
+      "significance": "Return to Philippines to establish reform organization",
+      "details": [
+        "Arrived aboard the steamer Colon",
+        "Brought plans for La Liga Filipina",
+        "Knew he was taking great personal risk",
+        "Determined to work for reforms from within the Philippines",
+        "Hoped to unite Filipinos for peaceful change"
+      ]
+    },
+    {
+      "date": "July 3, 1892",
+      "title": "Founding of La Liga Filipina",
+      "category": "Activism",
+      "location": "Manila, Philippines",
+      "description": "Rizal founded La Liga Filipina in Manila. The organization's goals included unity of the Filipino people, mutual protection, defense against violence and injustice, and encouragement of education, agriculture, and commerce.",
+      "significance": "Establishment of civic organization for peaceful reform",
+      "details": [
+        "Founded at the house of Doroteo Ongjunco on Azcarraga Street",
+        "Goals included Filipino unity and mutual aid",
+        "Advocated for education and economic development",
+        "Promoted study and application of reforms",
+        "Emphasized peaceful and legal means",
+        "Attended by prominent Filipino reformists",
+        "Organization was short-lived due to Rizal's arrest"
+      ]
+    },
+    {
+      "date": "July 6, 1892",
+      "title": "Arrest and Exile to Dapitan",
+      "category": "Persecution",
+      "location": "Manila to Dapitan",
+      "description": "Just three days after founding La Liga Filipina, Rizal was arrested by Spanish authorities. He was accused of anti-Spanish activities and distributing prohibited literature. Without a proper trial, he was exiled to Dapitan, a remote town in Zamboanga del Norte, Mindanao.",
+      "significance": "Beginning of four-year exile in Dapitan",
+      "details": [
+        "Arrested at the Malacañang Palace",
+        "Charged with being involved in anti-Spanish activities",
+        "No formal trial was conducted",
+        "Sentenced to exile in Dapitan",
+        "Exiled to isolate him from reform movements",
+        "La Liga Filipina dissolved after his arrest",
+        "Some members later joined the Katipunan revolutionary movement"
+      ]
+    },
+    {
+      "date": "July 17, 1892",
+      "title": "Arrival in Dapitan",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Rizal arrived in Dapitan and was placed under the custody of Captain Ricardo Carnicero, the military commander. Despite being in exile, Rizal made the most of his time and contributed significantly to the community's development.",
+      "significance": "Beginning of productive exile period",
+      "image_filename": "Rizal_at_the_center.jpg",
+      "details": [
+        "Placed under surveillance but given relative freedom",
+        "Developed good relationship with Captain Carnicero",
+        "Began planning how to serve the community",
+        "Established residence and clinic",
+        "Started teaching local children"
+      ]
+    },
+    {
+      "date": "1892-1896",
+      "title": "Medical Practice in Dapitan",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "During his exile, Rizal practiced medicine and performed numerous surgeries, including eye operations. He treated patients regardless of their ability to pay and became beloved by the local community.",
+      "significance": "Service to community through medical practice",
+      "details": [
+        "Established a clinic and hospital",
+        "Performed over 100 eye operations",
+        "Treated patients from Dapitan and surrounding areas",
+        "Often provided free treatment to poor patients",
+        "Gained reputation as skilled ophthalmologist",
+        "Helped cure many cases of blindness and eye diseases",
+        "Earned income to support himself and his projects"
+      ]
+    },
+    {
+      "date": "1892-1896",
+      "title": "Educational Work - School for Boys",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Rizal established a school for boys where he taught various subjects including Spanish, English, mathematics, sciences, and practical skills. His teaching methods were progressive and emphasized critical thinking.",
+      "significance": "Educational contribution during exile",
+      "details": [
+        "Taught about 20 students from Dapitan and nearby towns",
+        "Curriculum included languages, sciences, mathematics, geography",
+        "Also taught practical skills like farming and crafts",
+        "Used progressive teaching methods",
+        "Emphasized character development and critical thinking",
+        "Students learned through hands-on activities",
+        "Did not charge tuition fees from poor students",
+        "Some students became prominent citizens later"
+      ]
+    },
+    {
+      "date": "1893",
+      "title": "Design and Construction of Water System",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Rizal designed and helped build a water system for Dapitan using bamboo pipes. This provided clean water to the town and improved public health and sanitation.",
+      "significance": "Engineering contribution to community development",
+      "details": [
+        "Used his surveying and engineering knowledge",
+        "Designed system to bring water from mountain springs",
+        "Used bamboo pipes as conduits",
+        "Provided clean water to town center",
+        "Improved public health and sanitation",
+        "Demonstrated practical application of his skills",
+        "System served the community for many years"
+      ]
+    },
+    {
+      "date": "1893-1896",
+      "title": "Scientific Research and Discoveries",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Rizal conducted scientific research, collecting specimens of plants, shells, butterflies, and other fauna. He discovered several new species, some of which were named after him.",
+      "significance": "Scientific contributions during exile",
+      "details": [
+        "Collected over 200 species of shells",
+        "Discovered new species of beetles, frogs, and lizards",
+        "Draco rizali (flying lizard) named after him",
+        "Rhacophorus rizali (frog) named after him",
+        "Sent specimens to European scientists",
+        "Corresponded with naturalists and museums",
+        "Contributed to scientific knowledge of Philippine biodiversity",
+        "Maintained detailed notes and drawings of specimens"
+      ]
+    },
+    {
+      "date": "1894",
+      "title": "Agricultural and Business Ventures",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Rizal engaged in farming and introduced new agricultural methods. He cultivated crops, raised animals, and established various business ventures to support himself and help the local economy.",
+      "significance": "Economic development activities",
+      "details": [
+        "Bought land and established a farm",
+        "Grew rice, corn, coffee, cacao, and other crops",
+        "Raised chickens, pigs, and other animals",
+        "Introduced improved farming techniques",
+        "Established a fishing business",
+        "Operated a general store",
+        "Helped develop local economy",
+        "Employed local workers and taught them skills"
+      ]
+    },
+    {
+      "date": "1895",
+      "title": "Civic Projects - Plaza, Street Lighting, Maps",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Rizal designed and helped build a plaza, installed street lighting, and created detailed maps of Dapitan. These projects beautified the town and improved quality of life.",
+      "significance": "Urban planning and civic improvements",
+      "details": [
+        "Designed the town plaza as a public gathering space",
+        "Installed street lighting for safety and convenience",
+        "Created detailed maps of Dapitan and surrounding areas",
+        "Used his surveying skills for town planning",
+        "Beautified public spaces with landscaping",
+        "Improved town infrastructure",
+        "Projects still remembered and appreciated today"
+      ]
+    },
+    {
+      "date": "February 1895",
+      "title": "Arrival of Josephine Bracken",
+      "category": "Personal Life",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "Josephine Bracken, an Irish woman, came to Dapitan with her adoptive father George Taufer who sought treatment for his blindness from Rizal. Rizal and Josephine fell in love.",
+      "significance": "Beginning of relationship with Josephine Bracken",
+      "details": [
+        "Josephine was 18 years old, Rizal was 33",
+        "She came from Hong Kong with her adoptive father",
+        "Rizal treated her father's eye condition",
+        "They fell in love quickly",
+        "Wanted to marry but faced obstacles",
+        "Local priest refused to marry them without permission from bishop",
+        "Entered into common-law marriage",
+        "Josephine became Rizal's companion during exile"
+      ]
+    },
+    {
+      "date": "1896",
+      "title": "Volunteer as Military Doctor in Cuba",
+      "category": "Exile",
+      "location": "Dapitan, Zamboanga del Norte",
+      "description": "When the Cuban revolution against Spain broke out, Rizal volunteered to serve as a military doctor in Cuba. His offer was accepted by the Spanish government, and he prepared to leave Dapitan.",
+      "significance": "Decision to serve as doctor in Cuba",
+      "details": [
+        "Volunteered to serve Spain as military doctor",
+        "Hoped this would demonstrate his loyalty and lead to reforms",
+        "Offer was accepted by Governor General Blanco",
+        "Prepared to leave for Cuba via Spain",
+        "This decision would lead to his arrest and execution",
+        "Some historians debate his true intentions"
+      ]
+    },
+    {
+      "date": "July 31, 1896",
+      "title": "Departure from Dapitan",
+      "category": "Final Journey",
+      "location": "Dapitan to Manila",
+      "description": "Rizal left Dapitan for Manila, then boarded a ship bound for Spain en route to Cuba. The people of Dapitan were sad to see him leave, as he had contributed so much to their community.",
+      "significance": "End of productive exile period",
+      "details": [
+        "Emotional farewell from Dapitan residents",
+        "Left behind many improvements and projects",
+        "Carried letters of recommendation",
+        "Traveled with Josephine Bracken",
+        "Stopped briefly in Manila",
+        "Boarded ship for Barcelona, Spain"
+      ]
+    },
+    {
+      "date": "August 26, 1896",
+      "title": "Outbreak of Philippine Revolution",
+      "category": "Historical Events",
+      "location": "Philippines",
+      "description": "While Rizal was at sea, the Philippine Revolution led by the Katipunan broke out on August 26, 1896. The revolutionaries, inspired by Rizal's writings, launched armed uprising against Spanish rule.",
+      "significance": "Beginning of armed revolution against Spain",
+      "details": [
+        "Katipunan led by Andrés Bonifacio began armed revolt",
+        "Revolution inspired by Rizal's novels and ideas",
+        "Rizal was at sea, unaware of the uprising",
+        "Spanish authorities would blame Rizal for the revolution",
+        "This event sealed Rizal's fate"
+      ]
+    },
+    {
+      "date": "September 3, 1896",
+      "title": "Arrest in Barcelona",
+      "category": "Persecution",
+      "location": "Barcelona, Spain",
+      "description": "When Rizal's ship stopped in Barcelona, Spain, he was arrested by Spanish authorities. He was accused of being the intellectual author of the Philippine Revolution, despite having no direct involvement with the Katipunan.",
+      "significance": "Arrest that led to his trial and execution",
+      "details": [
+        "Arrested aboard the ship Colon",
+        "Charged with being mastermind of the revolution",
+        "Had no direct connection to Katipunan",
+        "Had advocated for peaceful reform, not armed rebellion",
+        "Imprisoned in Barcelona",
+        "Prepared to be sent back to Manila for trial"
+      ]
+    },
+    {
+      "date": "November 3, 1896",
+      "title": "Return to Manila as Prisoner",
+      "category": "Persecution",
+      "location": "Manila, Philippines",
+      "description": "Rizal was brought back to Manila as a prisoner and was imprisoned in Fort Santiago. During his imprisonment, he was allowed limited visitors and continued to write. He maintained his innocence regarding the revolution.",
+      "significance": "Imprisonment before trial",
+      "details": [
+        "Imprisoned in Fort Santiago",
+        "Held in a small cell",
+        "Allowed visits from family members",
+        "Continued to write letters and statements",
+        "Maintained he was not involved in revolution",
+        "Accepted responsibility for his writings",
+        "Prepared for trial",
+        "Knew his fate was likely sealed"
+      ]
+    },
+    {
+      "date": "December 26, 1896",
+      "title": "Trial and Conviction",
+      "category": "Persecution",
+      "location": "Manila, Philippines",
+      "description": "Rizal was tried by a military court on charges of rebellion, sedition, and conspiracy. The trial was a formality, as the verdict had already been decided. Despite lack of evidence directly linking him to the revolution, he was found guilty and sentenced to death by firing squad.",
+      "significance": "Unjust trial and death sentence",
+      "details": [
+        "Trial held at the Cuartel de España",
+        "Presided over by military tribunal",
+        "Charges included rebellion, sedition, and illegal association",
+        "Defense was not allowed to present full case",
+        "Evidence was circumstantial at best",
+        "His novels were used as evidence of sedition",
+        "Verdict was predetermined",
+        "Sentenced to death by firing squad",
+        "Sentence to be carried out at Bagumbayan"
+      ]
+    },
+    {
+      "date": "December 29, 1896",
+      "title": "Writing of 'Mi Último Adiós'",
+      "category": "Literary Works",
+      "location": "Fort Santiago, Manila",
+      "description": "On the eve of his execution, Rizal wrote his final masterpiece, 'Mi Último Adiós' (My Last Farewell), a beautiful poem expressing his love for the Philippines and his willingness to die for his country. He hid the poem in an alcohol lamp.",
+      "significance": "Final literary work and testament",
+      "details": [
+        "Written in his cell at Fort Santiago",
+        "Untitled poem of 14 stanzas",
+        "Written in Spanish",
+        "Expressed love for the Philippines",
+        "Accepted his fate with dignity",
+        "Hid the poem in an alcohol lamp",
+        "Lamp was given to his sister Trinidad",
+        "Poem was later titled 'Mi Último Adiós' by Mariano Ponce",
+        "Became one of the most famous poems in Philippine literature",
+        "Translated into many languages"
+      ]
+    },
+    {
+      "date": "December 29-30, 1896",
+      "title": "Final Hours and Farewell",
+      "category": "Final Journey",
+      "location": "Fort Santiago, Manila",
+      "description": "During his final hours, Rizal was allowed to see his family members. He gave them his final possessions and said his goodbyes. He spent the night writing letters and preparing for his execution.",
+      "significance": "Final moments with family",
+      "details": [
+        "Visited by his mother, sisters, and other family members",
+        "Gave them his final belongings",
+        "Wrote farewell letters",
+        "Maintained composure and dignity",
+        "Comforted his grieving family",
+        "Spent time in prayer and reflection",
+        "Prepared himself mentally and spiritually for death"
+      ]
+    },
+    {
+      "date": "December 30, 1896",
+      "title": "Execution at Bagumbayan",
+      "category": "Martyrdom",
+      "location": "Bagumbayan Field (Luneta), Manila",
+      "description": "At 7:03 AM on December 30, 1896, Dr. José Rizal was executed by firing squad at Bagumbayan Field (now Rizal Park/Luneta) in Manila. He was 35 years old. His martyrdom intensified the Philippine Revolution and cemented his legacy as the national hero.",
+      "significance": "Martyrdom and death of the national hero",
+      "image_filename": "rizal_final_moment.jpg",
+      "details": [
+        "Walked calmly to the execution site",
+        "Dressed in black suit, white vest, and black tie",
+        "Refused blindfold",
+        "Requested to face the firing squad but was denied",
+        "Shot in the back as a traitor",
+        "Last words: 'Consummatum est' (It is finished)",
+        "Managed to turn his body as he fell, dying face up toward the sky",
+        "Buried in unmarked grave at Paco Cemetery",
+        "His death shocked Filipinos and internationals",
+        "Martyrdom intensified the revolution",
+        "Became symbol of Filipino resistance and struggle for independence",
+        "December 30 declared Rizal Day, a national holiday"
+      ]
+    },
+    {
+      "date": "1901",
+      "title": "Declaration as National Hero",
+      "category": "Legacy",
+      "location": "Philippines",
+      "description": "In 1901, the American colonial government officially declared Rizal as the national hero of the Philippines. This was partly because Rizal advocated for peaceful reform rather than violent revolution.",
+      "significance": "Official recognition as national hero",
+      "details": [
+        "Declared national hero by American colonial government",
+        "Chosen over other revolutionary leaders",
+        "Americans preferred Rizal's peaceful reform advocacy",
+        "His life and works became required study in schools",
+        "Monuments erected in his honor across the Philippines",
+        "Rizal Day (December 30) became national holiday",
+        "His legacy continues to inspire Filipinos"
+      ]
+    }
+  ]
+}

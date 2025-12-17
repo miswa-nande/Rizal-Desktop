@@ -1,0 +1,51 @@
+{
+  "timeline": [
+    {
+      "year": "1861",
+      "title": "Birth of Jose Rizal",
+      "short_text": "José Protacio Rizal was born on June 16, 1861, in Calamba, Laguna, to Francisco Mercado and Teodora Alonzo.",
+      "Img_desc": "Francisco Mercado and Teodora Alonzo.",
+      "image_filename": "francisco_theodora.png"
+    },
+    {
+      "year": "1869",
+      "title": "Early Education in Biñan",
+      "short_text": "Rizal began his formal education in Biñan under Maestro Justiniano Aquino Cruz, showing early intellectual promise.",
+      "image_filename": "rizal_binan.jpg"
+    },
+    {
+      "year": "1872",
+      "title": "Execution of GOMBURZA",
+      "short_text": "The execution of GOMBURZA deeply influenced Rizal's nationalist awakening and shaped his later writings.",
+      "image_filename": "gomburza.jpg"
+    },
+    {
+      "year": "1877",
+      "title": "Studies at Ateneo Municipal",
+      "short_text": "Rizal excelled at Ateneo Municipal, producing poems, sculptures, and achieving academic distinction.",
+      "image_filename": "ateneo.jpg"
+    },
+    {
+      "year": "1877-1882",
+      "title": "Medical Studies at UST",
+      "short_text": "From 1877 to 1882, Rizal studied Philosophy, Letters, and Medicine at UST, completed surveying in 1881, experienced Spanish brutality, formed personal relationships, and earned literary acclaim through works like A la Juventud Filipina and El Consejo de los Dioses.",
+      "image_filename": "ateneo.jpg"
+    },
+    {
+      "year": "1882",
+      "title": "First Travel Abroad",
+      "short_text": "Rizal left the Philippines for Europe to continue his studies and observe Western societies."
+    },
+    {
+      "year": "1892",
+      "title": "Exile in Dapitan",
+      "short_text": "Rizal was exiled to Dapitan, where he focused on education, medicine, and community development."
+    },
+    {
+      "year": "1896",
+      "title": "Martyrdom in Bagumbayan",
+      "short_text": "Rizal was executed on December 30, 1896, becoming a symbol of Filipino nationalism and resistance.",
+      "image_filename": "rizal_final_moment.jpg"
+    }
+  ]
+}

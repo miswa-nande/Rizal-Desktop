@@ -59,21 +59,12 @@ class NavigationSystem {
 
     handleExit() {
         if (confirm('Are you sure you want to exit the Rizal Digital Museum?')) {
-            if (typeof require !== 'undefined') {
-                try {
-                    const { remote } = require('electron');
-                    const window = remote.getCurrentWindow();
-                    window.close();
-                } catch (error) {
-                    // Fallback: try using ipcRenderer
-                    try {
-                        const { ipcRenderer } = require('electron');
-                        ipcRenderer.send('close-app');
-                    } catch (e) {
-                        window.close();
-                    }
-                }
-            } else {
+            try {
+                // Use ipcRenderer to send close event to main process
+                ipcRenderer.send('close-app');
+            } catch (error) {
+                console.error('Error closing app:', error);
+                // Fallback to window.close()
                 window.close();
             }
         }

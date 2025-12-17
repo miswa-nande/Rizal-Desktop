@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 
 function createWindow() {
@@ -25,6 +25,11 @@ function createWindow() {
   if (process.env.NODE_ENV === 'development') {
     mainWindow.webContents.openDevTools();
   }
+
+  // Handle close-app IPC event
+  ipcMain.on('close-app', () => {
+    mainWindow.close();
+  });
 }
 
 app.whenReady().then(createWindow);

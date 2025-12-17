@@ -1,0 +1,364 @@
+{
+  "quiz_questions": [
+    {
+      "id": 1,
+      "question": "When was Dr. José Rizal born?",
+      "options": [
+        "June 19, 1861",
+        "June 16, 1861",
+        "December 30, 1861",
+        "May 3, 1861"
+      ],
+      "correct_answer": 0,
+      "explanation": "José Rizal was born on June 19, 1861, in Calamba, Laguna. He was the seventh of eleven children."
+    },
+    {
+      "id": 2,
+      "question": "Where was Rizal executed?",
+      "options": [
+        "Fort Santiago",
+        "Bagumbayan (now Luneta/Rizal Park)",
+        "Calamba, Laguna",
+        "Dapitan"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal was executed by firing squad at Bagumbayan Field (now known as Luneta or Rizal Park) on December 30, 1896."
+    },
+    {
+      "id": 3,
+      "question": "What does 'Noli Me Tangere' mean in English?",
+      "options": [
+        "The Reign of Greed",
+        "Touch Me Not",
+        "My Last Farewell",
+        "To the Filipino Youth"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Noli Me Tangere' is Latin for 'Touch Me Not,' taken from the Bible when Jesus spoke to Mary Magdalene after his resurrection."
+    },
+    {
+      "id": 4,
+      "question": "In which city was 'Noli Me Tangere' published?",
+      "options": [
+        "Madrid, Spain",
+        "Paris, France",
+        "Berlin, Germany",
+        "Manila, Philippines"
+      ],
+      "correct_answer": 2,
+      "explanation": "Noli Me Tangere was published in Berlin, Germany on February 21, 1887, with financial help from Maximo Viola."
+    },
+    {
+      "id": 5,
+      "question": "How many languages could Rizal speak fluently?",
+      "options": [
+        "10 languages",
+        "15 languages",
+        "22 languages",
+        "30 languages"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rizal was a polyglot who could speak 22 languages, including Spanish, French, German, English, Italian, Japanese, and various Filipino languages."
+    },
+    {
+      "id": 6,
+      "question": "What was Rizal's profession?",
+      "options": [
+        "Lawyer",
+        "Engineer",
+        "Ophthalmologist (Eye Doctor)",
+        "Architect"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rizal was a licensed physician who specialized in ophthalmology. He studied under renowned eye doctors in Paris and Germany."
+    },
+    {
+      "id": 7,
+      "question": "To whom did Rizal dedicate 'El Filibusterismo'?",
+      "options": [
+        "His mother, Teodora Alonso",
+        "GOMBURZA (three martyred Filipino priests)",
+        "Maria Clara",
+        "His brother Paciano"
+      ],
+      "correct_answer": 1,
+      "explanation": "El Filibusterismo was dedicated to GOMBURZA - Fathers Mariano Gómez, José Burgos, and Jacinto Zamora, who were executed in 1872."
+    },
+    {
+      "id": 8,
+      "question": "Where was Rizal exiled from 1892 to 1896?",
+      "options": [
+        "Hong Kong",
+        "Dapitan, Zamboanga del Norte",
+        "Calamba, Laguna",
+        "Fort Santiago"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal was exiled to Dapitan, a remote town in Zamboanga del Norte, where he practiced medicine, taught, and contributed to community development."
+    },
+    {
+      "id": 9,
+      "question": "What was Rizal's final poem called?",
+      "options": [
+        "A La Juventud Filipina",
+        "Sa Aking Mga Kabatà",
+        "Mi Último Adiós",
+        "Himno Al Trabajo"
+      ],
+      "correct_answer": 2,
+      "explanation": "Mi Último Adiós (My Last Farewell) was written on the eve of his execution, December 29, 1896, expressing his love for the Philippines."
+    },
+    {
+      "id": 10,
+      "question": "What organization did Rizal found in 1892?",
+      "options": [
+        "Katipunan",
+        "La Liga Filipina",
+        "Propaganda Movement",
+        "Ilustrados"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal founded La Liga Filipina on July 3, 1892, a civic organization aimed at uniting Filipinos and advocating for peaceful reforms."
+    },
+    {
+      "id": 11,
+      "question": "Who was the main protagonist in 'Noli Me Tangere'?",
+      "options": [
+        "Simoun",
+        "Elías",
+        "Crisostomo Ibarra",
+        "Basilio"
+      ],
+      "correct_answer": 2,
+      "explanation": "Crisostomo Ibarra is the protagonist of Noli Me Tangere, an idealistic young Filipino who returns from Europe hoping to reform society through education."
+    },
+    {
+      "id": 12,
+      "question": "What was Rizal's age when he was executed?",
+      "options": [
+        "30 years old",
+        "35 years old",
+        "40 years old",
+        "45 years old"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal was only 35 years old when he was executed on December 30, 1896."
+    },
+    {
+      "id": 13,
+      "question": "In 'El Filibusterismo', who is Simoun?",
+      "options": [
+        "A Spanish friar",
+        "Crisostomo Ibarra in disguise",
+        "A new character unrelated to Noli",
+        "Elías's brother"
+      ],
+      "correct_answer": 1,
+      "explanation": "Simoun is actually Crisostomo Ibarra in disguise, who survived and returned seeking revenge against the colonial system."
+    },
+    {
+      "id": 14,
+      "question": "What school did Rizal attend in Manila from 1872-1877?",
+      "options": [
+        "University of Santo Tomas",
+        "Ateneo Municipal de Manila",
+        "Colegio de San Juan de Letran",
+        "University of the Philippines"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal studied at Ateneo Municipal de Manila from 1872-1877, graduating with highest honors (Sobresaliente)."
+    },
+    {
+      "id": 15,
+      "question": "Which country did Rizal visit where he fell in love with O-Sei-San?",
+      "options": [
+        "China",
+        "United States",
+        "Japan",
+        "France"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rizal visited Japan in 1888 and fell in love with Seiko Usui (O-Sei-San), a Japanese woman. He admired Japanese culture and modernization."
+    },
+    {
+      "id": 16,
+      "question": "What were Rizal's last words before execution?",
+      "options": [
+        "Viva Filipinas!",
+        "Consummatum est (It is finished)",
+        "Mi Último Adiós",
+        "For God and Country"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal's last words were reportedly 'Consummatum est' (It is finished), the same words Jesus spoke on the cross."
+    },
+    {
+      "id": 17,
+      "question": "Who helped finance the publication of 'Noli Me Tangere'?",
+      "options": [
+        "His brother Paciano",
+        "Maximo Viola",
+        "Marcelo H. del Pilar",
+        "Juan Luna"
+      ],
+      "correct_answer": 1,
+      "explanation": "Maximo Viola, Rizal's friend, provided financial assistance to publish Noli Me Tangere in Berlin in 1887."
+    },
+    {
+      "id": 18,
+      "question": "What does 'El Filibusterismo' mean in English?",
+      "options": [
+        "The Revolution",
+        "The Reign of Greed",
+        "The Subversive",
+        "The Freedom Fighter"
+      ],
+      "correct_answer": 1,
+      "explanation": "El Filibusterismo translates to 'The Reign of Greed,' though the title also refers to subversive or revolutionary activities."
+    },
+    {
+      "id": 19,
+      "question": "Where did Rizal write 'El Filibusterismo'?",
+      "options": [
+        "Berlin, Germany",
+        "Madrid, Spain",
+        "Ghent, Belgium",
+        "Paris, France"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rizal completed and published El Filibusterismo in Ghent, Belgium on September 18, 1891."
+    },
+    {
+      "id": 20,
+      "question": "What was the name of Rizal's mother?",
+      "options": [
+        "Maria Clara",
+        "Teodora Alonso Realonda",
+        "Josephine Bracken",
+        "Saturnina Rizal"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal's mother was Teodora Alonso Realonda, a highly educated woman who was his first teacher."
+    },
+    {
+      "id": 21,
+      "question": "What tragic character in Noli Me Tangere went insane after losing her sons?",
+      "options": [
+        "Maria Clara",
+        "Doña Victorina",
+        "Sisa",
+        "Paulita Gómez"
+      ],
+      "correct_answer": 2,
+      "explanation": "Sisa went insane after her two sons, Basilio and Crispín, disappeared. She symbolizes the suffering of Filipino mothers under colonial oppression."
+    },
+    {
+      "id": 22,
+      "question": "In what year did the execution of GOMBURZA occur?",
+      "options": [
+        "1870",
+        "1872",
+        "1882",
+        "1896"
+      ],
+      "correct_answer": 1,
+      "explanation": "GOMBURZA were executed on February 17, 1872. This event deeply influenced young Rizal and awakened his nationalist consciousness."
+    },
+    {
+      "id": 23,
+      "question": "What species were named after Rizal?",
+      "options": [
+        "A bird and a butterfly",
+        "A flying lizard and a frog",
+        "A fish and a snake",
+        "A beetle and a moth"
+      ],
+      "correct_answer": 1,
+      "explanation": "Several species were named after Rizal, including Draco rizali (a flying lizard) and Rhacophorus rizali (a frog), discovered during his exile in Dapitan."
+    },
+    {
+      "id": 24,
+      "question": "Who was Rizal's common-law wife during his exile in Dapitan?",
+      "options": [
+        "Maria Clara",
+        "Leonor Rivera",
+        "Josephine Bracken",
+        "Segunda Katigbak"
+      ],
+      "correct_answer": 2,
+      "explanation": "Josephine Bracken, an Irish woman, became Rizal's common-law wife in 1895 when she came to Dapitan with her adoptive father seeking treatment."
+    },
+    {
+      "id": 25,
+      "question": "What was Rizal's first prize-winning poem written at age 18?",
+      "options": [
+        "Mi Último Adiós",
+        "A La Juventud Filipina",
+        "Sa Aking Mga Kabatà",
+        "Himno Al Trabajo"
+      ],
+      "correct_answer": 1,
+      "explanation": "A La Juventud Filipina (To the Filipino Youth) won first prize in 1879, urging Filipino youth to use their talents for the nation's betterment."
+    },
+    {
+      "id": 26,
+      "question": "What did Rizal build in Dapitan to help the community?",
+      "options": [
+        "A hospital",
+        "A water system using bamboo pipes",
+        "A church",
+        "A government building"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal designed and built a water system using bamboo pipes to provide clean water to Dapitan, along with other civic projects."
+    },
+    {
+      "id": 27,
+      "question": "Which European city's museum did Rizal spend time researching Philippine history?",
+      "options": [
+        "The Louvre in Paris",
+        "The British Museum in London",
+        "The Prado in Madrid",
+        "The Pergamon in Berlin"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rizal spent considerable time at the British Museum in London researching Philippine history and annotating Morga's historical work."
+    },
+    {
+      "id": 28,
+      "question": "What was the name of the ship Rizal took on his first voyage to Europe?",
+      "options": [
+        "SS Salvadora",
+        "SS Manila",
+        "SS España",
+        "SS Europa"
+      ],
+      "correct_answer": 0,
+      "explanation": "Rizal left Manila aboard the Spanish steamer SS Salvadora on May 3, 1882, traveling under the name José Mercado."
+    },
+    {
+      "id": 29,
+      "question": "Who was the corrupt friar antagonist in Noli Me Tangere?",
+      "options": [
+        "Padre Florentino",
+        "Padre Salví",
+        "Padre Dámaso",
+        "Padre Sibyla"
+      ],
+      "correct_answer": 2,
+      "explanation": "Padre Dámaso is the main friar antagonist in Noli Me Tangere, representing colonial arrogance, abuse, and hypocrisy. He was also María Clara's biological father."
+    },
+    {
+      "id": 30,
+      "question": "What year was Rizal declared the national hero of the Philippines?",
+      "options": [
+        "1896",
+        "1898",
+        "1901",
+        "1946"
+      ],
+      "correct_answer": 2,
+      "explanation": "In 1901, the American colonial government officially declared Rizal as the national hero of the Philippines."
+    }
+  ]
+}

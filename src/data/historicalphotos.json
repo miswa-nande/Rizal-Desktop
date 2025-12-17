@@ -1,0 +1,84 @@
+{
+  "rare_photos": [
+    {
+      "filename": "rizal_at_14.jpg",
+      "description": "José Rizal at the age of 14, showing his youthful intellect and poise.",
+      "suggested_search_queries": [
+        "Jose Rizal age 14 photo",
+        "Rizal teenage portrait"
+      ],
+      "license_notes": "Public domain – historical photograph"
+    },
+    {
+      "filename": "rizal_portrait.jpg",
+      "description": "A close-up portrait of José Rizal.",
+      "suggested_search_queries": [
+        "Jose Rizal portrait",
+        "Rizal official photo"
+      ],
+      "license_notes": "Public domain"
+    },
+    {
+      "filename": "rizal_smilling.jpg",
+      "description": "A rare photo capturing José Rizal smiling.",
+      "suggested_search_queries": [
+        "Jose Rizal smiling photo",
+        "Rizal rare photograph",
+        "Jose Rizal candid portrait",
+        "Rizal informal picture"
+      ],
+      "license_notes": "Public domain"
+    },
+    {
+      "filename": "Rizal_at_the_center.jpg",
+      "description": "A group photograph with Rizal positioned at the center.",
+      "suggested_search_queries": [
+        "Jose Rizal group photo",
+        "Rizal with contemporaries",
+        "Jose Rizal center portrait",
+        "Rizal among colleagues"
+      ],
+      "license_notes": "Public domain – historical photograph"
+    },
+    {
+      "filename": "rizal_wmaria_delapaz.jpg",
+      "description": "Rizal together with María de la Paz Pardo de Tavera and friends.",
+      "suggested_search_queries": [
+        "Jose Rizal Maria de la Paz",
+        "Rizal Pardo de Tavera",
+        "Rizal with friends photograph",
+        "Jose Rizal social gathering"
+      ],
+      "license_notes": "Public domain – historical photograph"
+    },
+    {
+      "filename": "rizal_w_felix_hidalgo.jpg",
+      "description": "Rizal in the company of Juan Luna and Félix Resurrección Hidalgo.",
+      "suggested_search_queries": [
+        "Rizal Juan Luna Felix Hidalgo",
+        "Philippine heroes together",
+        "Jose Rizal with artists",
+        "Rizal Luna Hidalgo portrait"
+      ],
+      "license_notes": "Public domain – historical photograph"
+    },
+    {
+      "filename": "noli_1st_edition.png",
+      "description": "A first-edition copy of Noli Me Tangere, personally signed by Rizal and inscribed with the dedication: For the esteemed scholar of Philippine studies, Don T. H. Pardo de Tavera.",
+      "suggested_search_queries": [
+        "Noli Me Tangere first edition Rizal",
+        "Signed Noli Me Tangere"
+      ],
+      "license_notes": "Public domain / museum archives"
+    },
+    {
+      "filename": "rizal_final_moment.jpg",
+      "description": "A rare and somber photo of Rizal's final moments, December 30, 1896 in Bagumbayan (now Luneta).",
+      "suggested_search_queries": [
+        "Rizal execution Bagumbayan",
+        "Rizal last moments photo"
+      ],
+      "license_notes": "Public domain – historical documentation"
+    }
+  ]
+}

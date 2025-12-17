@@ -7,6 +7,7 @@
     <title>Interactive Zone - Rizal Digital Museum</title>
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/pages.css">
+    <link rel="stylesheet" href="../../styles/quiz.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -65,14 +66,6 @@
 
                 <div class="interactive-modules">
                     <div class="module-card">
-                        <div class="module-icon">🗺️</div>
-                        <h3>Interactive Timeline</h3>
-                        <p>Explore Rizal's life journey through an interactive chronological timeline with key events
-                            and milestones.</p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
                         <div class="module-icon">🌍</div>
                         <h3>Travel Map</h3>
                         <p>Follow Rizal's travels across Europe and Asia on an interactive world map showing his routes
@@ -80,89 +73,57 @@
                         <button class="module-btn" disabled>Coming Soon</button>
                     </div>
 
-                    <div class="module-card">
+                    <div class="module-card active-module">
                         <div class="module-icon">❓</div>
                         <h3>Trivia Quiz</h3>
-                        <p>Test your knowledge about Dr. José Rizal with interactive quizzes covering his life, works,
-                            and legacy.</p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-icon">📖</div>
-                        <h3>Virtual Book Reader</h3>
-                        <p>Read excerpts from Noli Me Tangere and El Filibusterismo with annotations and historical
-                            context.</p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-icon">🎨</div>
-                        <h3>Art Gallery Tour</h3>
-                        <p>Take a virtual tour through Rizal's sketches and artistic works with detailed descriptions.
-                        </p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-icon">🎬</div>
-                        <h3>Video Documentary</h3>
-                        <p>Watch educational videos and documentaries about Rizal's life, contributions, and historical
-                            impact.</p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-icon">🎧</div>
-                        <h3>Audio Guide</h3>
-                        <p>Listen to narrated stories and historical accounts of Rizal's experiences and achievements.
-                        </p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-icon">🏛️</div>
-                        <h3>Virtual Museum Tour</h3>
-                        <p>Experience a 360° virtual tour of Rizal shrines and historical sites related to his life.</p>
-                        <button class="module-btn" disabled>Coming Soon</button>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-icon">📝</div>
-                        <h3>Interactive Essays</h3>
-                        <p>Explore Rizal's essays and writings with interactive annotations and historical context.</p>
-                        <button class="module-btn" disabled>Coming Soon</button>
+                        <p>Test your knowledge about Dr. José Rizal with randomized quizzes covering his life, works,
+                            and legacy. Get instant feedback with answer key!</p>
+                        <button class="module-btn module-btn-active" onclick="showQuizModule()">Start Quiz</button>
                     </div>
                 </div>
 
-                <div class="interactive-preview">
-                    <h2>Featured: Interactive Timeline Preview</h2>
+                <!-- Quiz Module Container -->
+                <div id="quiz-module" class="quiz-module" style="display: none;">
+                    <div class="quiz-module-header">
+                        <button class="quiz-back-btn" onclick="hideQuizModule()">← Back to Interactive Zone</button>
+                        <h2>Rizal Trivia Quiz</h2>
+                    </div>
+                    <div id="quiz-container" class="quiz-container">
+                        <!-- Quiz content will be loaded here by quiz.js -->
+                    </div>
+                </div>
+
+                <div class="interactive-preview" id="preview-section">
+                    <h2>Featured: Trivia Quiz Now Available!</h2>
                     <div class="preview-container">
                         <div class="timeline-preview">
                             <div class="preview-message">
-                                <div class="preview-icon">🚧</div>
-                                <h3>Under Development</h3>
-                                <p>Interactive features are currently being developed and will be available soon. These
-                                    modules will provide engaging ways to learn about Dr. José Rizal's life and legacy.
+                                <div class="preview-icon">🎯</div>
+                                <h3>Test Your Knowledge!</h3>
+                                <p>The Rizal Trivia Quiz is now available! Challenge yourself with randomized questions
+                                    about Dr. José Rizal's life, works, and legacy. Each quiz session presents different
+                                    questions for a fresh learning experience.
                                 </p>
                                 <div class="preview-features">
                                     <div class="preview-feature">
                                         <span class="feature-check">✓</span>
-                                        <span>Multimedia content integration</span>
+                                        <span>30+ questions in the question bank</span>
                                     </div>
                                     <div class="preview-feature">
                                         <span class="feature-check">✓</span>
-                                        <span>Interactive quizzes and games</span>
+                                        <span>Randomized questions every time</span>
                                     </div>
                                     <div class="preview-feature">
                                         <span class="feature-check">✓</span>
-                                        <span>Virtual tours and 360° views</span>
+                                        <span>Detailed explanations for each answer</span>
                                     </div>
                                     <div class="preview-feature">
                                         <span class="feature-check">✓</span>
-                                        <span>Audio narration and guides</span>
+                                        <span>Complete answer key at the end</span>
                                     </div>
                                 </div>
+                                <button class="quiz-btn quiz-btn-primary" onclick="showQuizModule()"
+                                    style="margin-top: 20px;">Start Quiz Now</button>
                             </div>
                         </div>
                     </div>
@@ -172,6 +133,22 @@
     </div>
 
     <script src="../js/navigation.js"></script>
+    <script src="../js/quiz.js"></script>
+    <script>
+        function showQuizModule() {
+            document.getElementById('quiz-module').style.display = 'block';
+            document.getElementById('preview-section').style.display = 'none';
+            document.querySelector('.interactive-modules').style.display = 'none';
+            document.querySelector('.page-header').style.display = 'none';
+        }
+
+        function hideQuizModule() {
+            document.getElementById('quiz-module').style.display = 'none';
+            document.getElementById('preview-section').style.display = 'block';
+            document.querySelector('.interactive-modules').style.display = 'grid';
+            document.querySelector('.page-header').style.display = 'block';
+        }
+    </script>
 </body>
 
 </html>

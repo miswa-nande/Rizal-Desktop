@@ -1,0 +1,60 @@
+{
+  "travels": [
+    {
+      "place": "Singapore",
+      "year": "1882",
+      "reason": "Transit during first travel abroad",
+      "short_text": "Rizal passed through Singapore aboard the SS Salvadora under the name Jose Mercado on his way to Europe.",
+      "image_filename": "singapore.jpg"
+    },
+    {
+      "place": "Europe (Ceylon, Aden, Suez, Marseille, Barcelona)",
+      "year": "1882",
+      "reason": "Education, observation, and exposure to liberal ideas",
+      "short_text": "Rizal traveled across Europe, observing Western societies and publishing patriotic writings such as Amor Patrio.",
+      "image_filename": "djemnah.jpg"
+    },
+    {
+      "place": "Paris and Germany",
+      "year": "1883-1886",
+      "reason": "Medical specialization and research",
+      "short_text": "He trained under leading ophthalmologists while continuing literary and reformist activities.",
+      "image_filename": "paris.jpg"
+    },
+    {
+      "place": "Hong Kong, Macau, Japan",
+      "year": "1888",
+      "reason": "Political refuge and cultural exposure",
+      "short_text": "Rizal traveled through Asia, formed friendships, and experienced racial discrimination in Japan and Hong Kong.",
+      "image_filename": "amoy.jpg"
+    },
+    {
+      "place": "United States",
+      "year": "1888",
+      "reason": "Transit and observation of democracy",
+      "short_text": "Rizal visited the U.S., noting both its democratic ideals and racial discrimination against Asians.",
+      "image_filename": "us.jpg"
+    },
+    {
+      "place": "England",
+      "year": "1888-1889",
+      "reason": "Historical research and writing",
+      "short_text": "In London, Rizal annotated Antonio de Morga's Sucesos de las Islas Filipinas and joined reformist groups.",
+      "image_filename": "london.jpg"
+    },
+    {
+      "place": "France and Belgium",
+      "year": "1889-1891",
+      "reason": "Writing and political advocacy",
+      "short_text": "Rizal wrote major reformist essays and completed El Filibusterismo while facing personal and political struggles.",
+      "image_filename": "france.jpg"
+    },
+    {
+      "place": "Hong Kong",
+      "year": "1891-1892",
+      "reason": "Medical practice and reform planning",
+      "short_text": "Rizal practiced ophthalmology, reunited with family, and drafted plans for La Liga Filipina.",
+      "image_filename": "hongkong.jpg"
+    }
+  ]
+}

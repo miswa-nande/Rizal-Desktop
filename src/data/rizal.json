@@ -1,0 +1,225 @@
+{
+  "timeline": [
+    {
+      "year": "1861",
+      "title": "Birth of Jose Rizal",
+      "short_text": "José Protacio Rizal was born on June 16, 1861, in Calamba, Laguna, to Francisco Mercado and Teodora Alonzo.",
+      "Img_desc": "Francisco Mercado and Teodora Alonzo.",
+      "image_filename": "francisco_theodora.png"
+    },
+    {
+      "year": "1869",
+      "title": "Early Education in Biñan",
+      "short_text": "Rizal began his formal education in Biñan under Maestro Justiniano Aquino Cruz, showing early intellectual promise.",
+      "image_filename": "rizal_binan.jpg"
+    },
+    {
+      "year": "1872",
+      "title": "Execution of GOMBURZA",
+      "short_text": "The execution of GOMBURZA deeply influenced Rizal’s nationalist awakening and shaped his later writings.",
+      "image_filename": "gomburza.jpg"
+    },
+    {
+      "year": "1877",
+      "title": "Studies at Ateneo Municipal",
+      "short_text": "Rizal excelled at Ateneo Municipal, producing poems, sculptures, and achieving academic distinction.",
+      "image_filename": "ateneo.jpg"
+    },
+    {
+      "year": "1877-1882",
+      "title": "Medical Studies at UST",
+      "short_text": "From 1877 to 1882, Rizal studied Philosophy, Letters, and Medicine at UST, completed surveying in 1881, experienced Spanish brutality, formed personal relationships, and earned literary acclaim through works like A la Juventud Filipina and El Consejo de los Dioses.",
+      "image_filename": "ateneo.jpg"
+    },
+    {
+      "year": "1882",
+      "title": "First Travel Abroad",
+      "short_text": "Rizal left the Philippines for Europe to continue his studies and observe Western societies."
+    },
+    {
+      "year": "1892",
+      "title": "Exile in Dapitan",
+      "short_text": "Rizal was exiled to Dapitan, where he focused on education, medicine, and community development."
+    },
+    {
+      "year": "1896",
+      "title": "Martyrdom in Bagumbayan",
+      "short_text": "Rizal was executed on December 30, 1896, becoming a symbol of Filipino nationalism and resistance.",
+      "image_filename": "rizal_final_moment.jpg"
+    }
+  ],
+
+  "travels": [
+    {
+    "place": "Singapore",
+    "year": "1882",
+    "reason": "Transit during first travel abroad",
+    "short_text": "Rizal passed through Singapore aboard the SS Salvadora under the name Jose Mercado on his way to Europe.",
+    "image_filename": "singapore_map.jpg"
+  },
+    {
+    "place": "Europe (Ceylon, Aden, Suez, Marseille, Barcelona)",
+    "year": "1882",
+    "reason": "Education, observation, and exposure to liberal ideas",
+    "short_text": "Rizal traveled across Europe, observing Western societies and publishing patriotic writings such as Amor Patrio.",
+    "image_filename": "europe_route.jpg"
+  },
+    {
+    "place": "Paris and Germany",
+    "year": "1883–1886",
+    "reason": "Medical specialization and research",
+    "short_text": "He trained under leading ophthalmologists while continuing literary and reformist activities.",
+    "image_filename": "paris_germany_map.jpg"
+  },
+    {
+    "place": "Hong Kong, Macau, Japan",
+    "year": "1888",
+    "reason": "Political refuge and cultural exposure",
+    "short_text": "Rizal traveled through Asia, formed friendships, and experienced racial discrimination in Japan and Hong Kong.",
+    "image_filename": "asia_map.jpg"
+  },
+  {
+    "place": "United States",
+    "year": "1888",
+    "reason": "Transit and observation of democracy",
+    "short_text": "Rizal visited the U.S., noting both its democratic ideals and racial discrimination against Asians.",
+    "image_filename": "usa_map.jpg"
+  },
+  {
+    "place": "England",
+    "year": "1888–1889",
+    "reason": "Historical research and writing",
+    "short_text": "In London, Rizal annotated Antonio de Morga’s Sucesos de las Islas Filipinas and joined reformist groups.",
+    "image_filename": "london_map.jpg"
+  },
+  {
+    "place": "France and Belgium",
+    "year": "1889–1891",
+    "reason": "Writing and political advocacy",
+    "short_text": "Rizal wrote major reformist essays and completed El Filibusterismo while facing personal and political struggles.",
+    "image_filename": "france_belgium_map.jpg"
+  },
+  {
+    "place": "Hong Kong",
+    "year": "1891–1892",
+    "reason": "Medical practice and reform planning",
+    "short_text": "Rizal practiced ophthalmology, reunited with family, and drafted plans for La Liga Filipina.",
+    "image_filename": "hongkong_map.jpg"
+  }
+  ],
+
+  "noliMeTangere": {
+    "summary": "Noli Me Tangere is a social novel written by José Rizal that exposes the injustices of Spanish colonial rule in the Philippines. The story follows Crisostomo Ibarra, a young Filipino who returns home after studying in Europe with hopes of reforming society through education and peaceful means. Upon his return, he is confronted by widespread corruption, abuse of power, and moral decay perpetuated by friars and government officials.\n\nThroughout the novel, Rizal reveals the suffering of ordinary Filipinos, particularly through tragic characters like Sisa, whose sons fall victim to cruelty and injustice. The relationship between Ibarra and Maria Clara highlights the personal cost of colonial oppression, as love and family are destroyed by manipulation and religious authority.\n\nAs Ibarra attempts to build a school to uplift Filipino youth, he encounters resistance from those who benefit from the existing system. His disillusionment grows as reform proves impossible within a deeply corrupt structure. By the end of the novel, Rizal emphasizes that awareness, unity, and national consciousness are necessary for genuine change, making Noli Me Tangere a foundational work in the Philippine nationalist movement.",
+    "main_characters": [
+      "Crisostomo Ibarra - an idealistic, Europe-educated reformer who believes that progress can be achieved through education and peaceful change, symbolizing hope for a re-awakened Filipino identity.",
+      "Maria Clara - admired for her purity and devotion, she represents the ideal Filipina shaped by religious and colonial expectations, while also revealing the emotional suffering caused by societal control.",
+      "Padre Damaso - a powerful Spanish friar embodying colonial arrogance, abuse, and hypocrisy; his actions reveal the deep-rooted corruption within the religious institutions of the time.",
+      "Elias - a courageous yet tragic revolutionary figure who seeks justice for the oppressed; he guides Ibarra toward the harsh realities of colonial rule and symbolizes the masses’ longing for true freedom.",
+      "Sisa -  a heartbroken mother whose suffering reflects the vulnerability of ordinary Filipinos; her tragedy exposes how poverty, cruelty, and abuse destroy innocent lives."
+    ],
+    "teaching_points": [
+      "Social injustice thrives when people remain silent or fearful, allowing abusive systems to grow stronger and more harmful over time.",
+      "Meaningful reform requires both education and an awakened public consciousness, empowering individuals to challenge oppression and demand change.",
+      "Oppression does not affect only one person—it wounds families, communities, and the entire nation, creating a cycle of suffering that can only be broken through unity and empathy."
+    ]
+  },
+
+  "elFilibusterismo": {
+    "summary": "El Filibusterismo is the darker sequel to Noli Me Tangere and presents a more radical perspective on reform and revolution. The novel follows Crisostomo Ibarra, now disguised as Simoun, a wealthy jeweler who has abandoned peaceful reform in favor of violent revolution. Disillusioned by past failures, Simoun manipulates corrupt officials and elites to hasten societal collapse.\n\nThe narrative explores themes of revenge, moral conflict, and the dangers of unchecked hatred. While Simoun believes destruction is necessary to awaken the people, characters like Basilio and Isagani represent alternative paths rooted in education and ethical reform. Their struggles illustrate the tension between idealism and despair under colonial oppression.\n\nThe climax occurs when Simoun plans to detonate a bomb to spark revolution, but the plan fails, leading to his downfall. In his final moments, Rizal delivers a powerful moral lesson: true freedom cannot be achieved through hatred alone. El Filibusterismo warns that without moral integrity and unity, any revolution is doomed to fail.",
+    "main_characters": [
+      "Simoun (Crisostomo Ibarra) - a wealthy jeweler driven by bitterness and disillusionment; he uses his power and influence to manipulate society, believing that violent revolution is the only way to end colonial oppression.",
+      "Basilio - a hardworking and intelligent student whose tragic past fuels his desire for education and progress; he symbolizes the youth’s struggle for a better future through knowledge and perseverance.",
+      "Isagani - an idealistic young thinker guided by strong moral principles; he believes in reform through integrity and reason, contrasting Simoun’s path of vengeance.",
+      "Padre Florentino - a compassionate priest who serves as the novel’s moral conscience, reminding the nation that true freedom must be rooted in virtue, not anger or violence.",
+      "Kabesang Tales -  a humble farmer pushed into rebellion by extreme injustice and exploitation; his story represents the suffering endured by ordinary Filipinos under abusive colonial rule."
+    ],
+    "teaching_points": [
+      "Revolutions built on hatred and revenge ultimately fail, because true freedom must be grounded in moral integrity and compassion.",
+      "Education, critical thinking, and ethical leadership are essential foundations for meaningful and lasting social reform.",
+      "Real change requires collective courage and unity—when people work together with a common purpose, they can resist oppression and shape a just society."
+    ]
+  },
+
+  "rare_photos": [
+    {
+      "filename": "rizal_at_14.jpg",
+      "description": "José Rizal at the age of 14, showing his youthful intellect and poise.",
+      "suggested_search_queries": [
+        "Jose Rizal age 14 photo",
+        "Rizal teenage portrait"
+      ],
+      "license_notes": "Public domain – historical photograph"
+    },
+    {
+      "filename": "rizal_portrait.jpg",
+      "description": "A close-up portrait of José Rizal.",
+      "suggested_search_queries": [
+        "Jose Rizal portrait",
+        "Rizal official photo"
+      ],
+      "license_notes": "Public domain"
+    },
+    {
+  "filename": "rizal_smilling.jpg",
+  "description": "A rare photo capturing José Rizal smiling.",
+  "suggested_search_queries": [
+    "Jose Rizal smiling photo",
+    "Rizal rare photograph",
+    "Jose Rizal candid portrait",
+    "Rizal informal picture"
+  ],
+  "license_notes": "Public domain"
+},
+{
+  "filename": "Rizal_at_the_center.jpg",
+  "description": "A group photograph with Rizal positioned at the center.",
+  "suggested_search_queries": [
+    "Jose Rizal group photo",
+    "Rizal with contemporaries",
+    "Jose Rizal center portrait",
+    "Rizal among colleagues"
+  ],
+  "license_notes": "Public domain – historical photograph"
+},
+{
+  "filename": "rizal_wmaria_delapaz.jpg",
+  "description": "Rizal together with María de la Paz Pardo de Tavera and friends.",
+  "suggested_search_queries": [
+    "Jose Rizal Maria de la Paz",
+    "Rizal Pardo de Tavera",
+    "Rizal with friends photograph",
+    "Jose Rizal social gathering"
+  ],
+  "license_notes": "Public domain – historical photograph"
+},
+{
+  "filename": "rizal_w_felix_hidalgo.jpg",
+  "description": "Rizal in the company of Juan Luna and Félix Resurrección Hidalgo.",
+  "suggested_search_queries": [
+    "Rizal Juan Luna Felix Hidalgo",
+    "Philippine heroes together",
+    "Jose Rizal with artists",
+    "Rizal Luna Hidalgo portrait"
+  ],
+  "license_notes": "Public domain – historical photograph"
+},
+    {
+      "filename": "noli_1st_edition.png",
+      "description": "A first-edition copy of Noli Me Tangere, personally signed by Rizal and inscribed with the dedication: For the esteemed scholar of Philippine studies, Don T. H. Pardo de Tavera. ",
+      "suggested_search_queries": [
+        "Noli Me Tangere first edition Rizal",
+        "Signed Noli Me Tangere"
+      ],
+      "license_notes": "Public domain / museum archives"
+    },
+    {
+      "filename": "rizal_final_moment.jpg",
+      "description": "A rare and somber photo of Rizal’s final moments, December 30, 1896 in Bagumbayan (now Luneta).",
+      "suggested_search_queries": [
+        "Rizal execution Bagumbayan",
+        "Rizal last moments photo"
+      ],
+      "license_notes": "Public domain – historical documentation"
+    }
+  ]
+}
