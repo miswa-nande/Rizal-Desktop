@@ -9,7 +9,7 @@ function createWindow() {
       nodeIntegration: true,
       contextIsolation: false
     },
-    icon: path.join(__dirname, 'src/assets/images/icon.png'),
+    icon: path.join(__dirname, 'src/assets/images/logo2,2.png'),
     titleBarStyle: 'default',
     autoHideMenuBar: true,
     show: false

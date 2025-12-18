@@ -1,39 +1,105 @@
-/* Timeline Styles */
+/* Timeline Styles - Gold Museum Theme */
+
+.timeline-search-container {
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-search {
+    width: 100%;
+    padding: 14px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 30px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+
+.timeline-search:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+}
 
 .timeline-filters {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     justify-content: center;
     margin-bottom: 40px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 12px;
+    padding: 25px;
+    background: linear-gradient(135deg, #fefefe 0%, #f8f8f8 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e8e8e8;
 }
 
 .timeline-filter-btn {
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: 2px solid #e0e0e0;
     background: white;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
     font-size: 0.95em;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.3s ease;
     color: #555;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .timeline-filter-btn:hover {
-    border-color: #4CAF50;
-    color: #4CAF50;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+    border-color: #d4af37;
+    color: #b8960c;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.2);
 }
 
 .timeline-filter-btn.active {
-    background: #4CAF50;
+    background: linear-gradient(135deg, #d4af37 0%, #b8960c 100%);
     color: white;
-    border-color: #4CAF50;
+    border-color: #d4af37;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Era Section Dividers */
+.timeline-era {
+    text-align: center;
+    margin: 60px 0 40px;
+    position: relative;
+}
+
+.timeline-era::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+}
+
+.timeline-era-label {
+    display: inline-block;
+    background: linear-gradient(135deg, #d4af37 0%, #b8960c 100%);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+}
+
+.timeline-era-years {
+    display: block;
+    font-size: 0.75em;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 2px;
 }
 
 /* Timeline Container */
@@ -52,9 +118,10 @@
     top: 0;
     bottom: 0;
     width: 4px;
-    background: linear-gradient(180deg, #4CAF50, #2e7d32);
+    background: linear-gradient(180deg, #d4af37, #b8960c, #d4af37);
     transform: translateX(-50%);
     z-index: 0;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
 
 /* Timeline Event */
@@ -147,17 +214,30 @@
 /* Timeline Content */
 .timeline-content {
     background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     max-width: 500px;
     position: relative;
     transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #d4af37, #ffd700, #d4af37);
+    border-radius: 16px 16px 0 0;
 }
 
 .timeline-content:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 35px rgba(212, 175, 55, 0.15);
     transform: translateY(-5px);
+    border-color: rgba(212, 175, 55, 0.3);
 }
 
 /* Arrow pointing to timeline */
@@ -188,14 +268,15 @@
 /* Timeline Date */
 .timeline-date {
     display: inline-block;
-    background: linear-gradient(135deg, #4CAF50, #2e7d32);
+    background: linear-gradient(135deg, #d4af37, #b8960c);
     color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 0.9em;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 1em;
     margin-bottom: 12px;
-    box-shadow: 0 2px 6px rgba(76, 175, 80, 0.3);
+    box-shadow: 0 3px 10px rgba(212, 175, 55, 0.4);
+    font-family: 'Playfair Display', serif;
 }
 
 /* Category Badge */
@@ -284,11 +365,11 @@
 
 /* Expand Button */
 .timeline-expand-btn {
-    background: #4CAF50;
+    background: linear-gradient(135deg, #d4af37, #b8960c);
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
+    padding: 12px 24px;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 0.9em;
     font-weight: 600;
@@ -297,12 +378,13 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    box-shadow: 0 3px 10px rgba(212, 175, 55, 0.3);
 }
 
 .timeline-expand-btn:hover {
-    background: #45a049;
+    background: linear-gradient(135deg, #b8960c, #9a7d0a);
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+    box-shadow: 0 6px 15px rgba(212, 175, 55, 0.4);
 }
 
 .expand-icon {
