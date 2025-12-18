@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "dev": "electron .",
-    "build": "electron-builder"
+    "build": "electron-builder",
+    "build:win": "electron-builder --win --x64"
   },
   "build": {
     "appId": "com.rizal.digitalmuseum",
@@ -17,9 +18,10 @@
     "win": {
       "icon": "build/icon.ico",
       "target": [
-        "nsis"
+        "portable"
       ]
     },
+    "forceCodeSigning": false,
     "mac": {
       "icon": "build/icon.icns",
       "category": "public.app-category.education"
