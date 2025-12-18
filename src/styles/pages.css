@@ -583,6 +583,373 @@
     font-weight: 600;
 }
 
+/* Gallery Item Hover & Focus Effects - Cyberpunk Style */
+.gallery-item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    background: #f7f7f7;
+    border: 2px solid #d4af37;
+    box-shadow: 0 8px 25px var(--shadow-light);
+    overflow: hidden;
+}
+
+.gallery-item::before,
+.gallery-item::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 6px #ffd700, 0 0 10px #d4af37;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Hover state - just glow, no dots */
+.gallery-item:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5), 0 0 30px rgba(212, 175, 55, 0.2), 0 12px 40px rgba(0, 0, 0, 0.3);
+    border-color: #ffd700;
+    outline: none;
+}
+
+/* Focus/Active state - glow + racing dots */
+.gallery-item:focus,
+.gallery-item.focused {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6), 0 0 40px rgba(212, 175, 55, 0.3), 0 12px 40px rgba(0, 0, 0, 0.3);
+    border-color: #ffd700;
+    outline: none;
+}
+
+.gallery-item:focus::before,
+.gallery-item:focus::after,
+.gallery-item.focused::before,
+.gallery-item.focused::after {
+    opacity: 1;
+    animation: racingDot 2.5s linear infinite;
+}
+
+.gallery-item:focus::after,
+.gallery-item.focused::after {
+    animation-delay: -1.25s;
+}
+
+@keyframes racingDot {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: calc(100% - 4px);
+    }
+    50% {
+        top: calc(100% - 4px);
+        left: calc(100% - 4px);
+    }
+    75% {
+        top: calc(100% - 4px);
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+/* Gallery Modal */
+.gallery-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    animation: modalFadeIn 0.3s ease;
+}
+
+.gallery-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.gallery-modal-content {
+    position: relative;
+    max-width: 900px;
+    max-height: 90vh;
+    width: 90%;
+    background: #ffffff;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 3px solid #d4af37;
+    overflow: visible;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gallery-modal-content::before,
+.gallery-modal-content::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #73ff00;
+    z-index: 100;
+    animation: modalRacingDot 12s linear infinite;
+}
+
+.gallery-modal-content::after {
+    animation-delay: -6s;
+}
+
+@keyframes modalRacingDot {
+    0% {
+        top: -1px;
+        left: -1px;
+        box-shadow: 0 0 15px #ffd700, 0 0 25px #d4af37, 0 0 35px rgba(212, 175, 55, 0.8);
+    }
+    25% {
+        top: -1px;
+        left: calc(100% - 1px);
+        box-shadow: 0 0 15px #ffd700, 0 0 25px #d4af37, 0 0 35px rgba(212, 175, 55, 0.8);
+    }
+    50% {
+        top: calc(100% - 1px);
+        left: calc(100% - 1px);
+        box-shadow: 0 0 15px #ffd700, 0 0 25px #d4af37, 0 0 35px rgba(212, 175, 55, 0.8);
+    }
+    75% {
+        top: calc(100% - 1px);
+        left: -1px;
+        box-shadow: 0 0 15px #ffd700, 0 0 25px #d4af37, 0 0 35px rgba(212, 175, 55, 0.8);
+    }
+    100% {
+        top: -1px;
+        left: -1px;
+        box-shadow: 0 0 15px #ffd700, 0 0 25px #d4af37, 0 0 35px rgba(212, 175, 55, 0.8);
+    }
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.gallery-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+}
+
+.gallery-modal-header h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+    text-shadow: none;
+}
+
+.gallery-modal-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-btn {
+    padding: 10px 16px;
+    background: var(--gold-accent);
+    color: var(--text-light);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.modal-btn:hover {
+background: var(--gold-primary);
+transform: translateY(-2px);
+box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+.modal-btn.close-btn {
+background: rgba(255, 255, 255, 0.1);
+color: #000000;
+border: 1px solid rgba(212, 175, 55, 0.3);
+;
+}
+
+.modal-btn.close-btn:hover {
+background: rgba(255, 255, 255, 0.2);
+border-color: rgba(212, 175, 55, 0.5);
+}
+
+.gallery-modal-body {
+padding: 30px;
+max-height: calc(90vh - 180px);
+overflow-y: auto;
+background: #ffffff;
+border-radius: 0 0 20px 20px;
+}
+
+.gallery-modal-image {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.gallery-modal-image img,
+.gallery-modal-image .image-placeholder {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #f5f5f5;
+}
+
+.gallery-modal-image .image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    font-size: 18px;
+    color: var(--text-tertiary);
+}
+
+.gallery-modal-info {
+    background: rgba(212, 175, 55, 0.08);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.gallery-modal-info p {
+    line-height: 1.8;
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.gallery-modal-info strong {
+    color: #b8860b;
+}
+
+.gallery-modal-info p:last-child {
+    margin-bottom: 0;
+}
+
+/* Fullscreen Modal */
+.gallery-fullscreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.95);
+    animation: modalFadeIn 0.3s ease;
+}
+
+.gallery-fullscreen.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-fullscreen-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.gallery-fullscreen-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+.gallery-fullscreen-image.zoomed {
+    cursor: grab;
+    transform-origin: center center;
+}
+
+.gallery-fullscreen-image.zoomed:active {
+    cursor: grabbing;
+}
+
+.gallery-fullscreen-controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 10001;
+}
+
+.gallery-fullscreen-close,
+.gallery-fullscreen-zoom {
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-primary);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gallery-fullscreen-close:hover,
+.gallery-fullscreen-zoom:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
 /* Interactive Page */
 .interactive-modules {
     display: grid;
@@ -1271,5 +1638,139 @@
     
     .preview-feature {
         font-size: 12px;
+    }
+}
+
+/* Timeline Search Bar */
+.timeline-search-container {
+    margin-top: var(--spacing-lg);
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-search {
+    width: 300px;
+    padding: 12px 20px;
+    border: 2px solid var(--border-light);
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: var(--font-body);
+    transition: all 0.3s ease;
+    background: var(--card-bg);
+    color: var(--text-primary);
+    outline: none;
+}
+
+.timeline-search:focus {
+    width: 500px;
+    border-color: var(--gold-accent);
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+}
+
+.timeline-search::placeholder {
+    color: var(--text-tertiary);
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: var(--gold-accent);
+    color: var(--text-light);
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-to-top:hover {
+    background: var(--gold-primary);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+}
+
+/* Timeline Content Hover Effects */
+.timeline-content {
+    cursor: pointer;
+    overflow: visible;
+}
+
+.timeline-content::before,
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--gold-primary) 0%, var(--gold-accent) 50%, transparent 70%);
+    box-shadow: 0 0 20px var(--gold-primary), 0 0 40px var(--gold-accent);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.timeline-content:hover::before,
+.timeline-content:hover::after {
+    opacity: 1;
+    animation: circleEdge 3s linear infinite;
+}
+
+.timeline-content:hover::after {
+    animation-delay: 1.5s;
+}
+
+@keyframes circleEdge {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    12.5% {
+        top: 0;
+        left: 50%;
+    }
+    25% {
+        top: 0;
+        left: 100%;
+    }
+    37.5% {
+        top: 50%;
+        left: 100%;
+    }
+    50% {
+        top: 100%;
+        left: 100%;
+    }
+    62.5% {
+        top: 100%;
+        left: 50%;
+    }
+    75% {
+        top: 100%;
+        left: 0;
+    }
+    87.5% {
+        top: 50%;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
     }
 }

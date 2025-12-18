@@ -37,6 +37,29 @@ class RizalTimeline {
         this.attachEventListeners();
     }
 
+    searchEvents(query) {
+        const searchTerm = query.toLowerCase().trim();
+        if (!searchTerm) {
+            this.filteredData = this.currentFilter === 'all' 
+                ? this.timelineData 
+                : this.timelineData.filter(event => event.category === this.currentFilter);
+        } else {
+            const baseData = this.currentFilter === 'all' 
+                ? this.timelineData 
+                : this.timelineData.filter(event => event.category === this.currentFilter);
+            
+            this.filteredData = baseData.filter(event => {
+                return event.title.toLowerCase().includes(searchTerm) ||
+                       event.description.toLowerCase().includes(searchTerm) ||
+                       event.date.toLowerCase().includes(searchTerm) ||
+                       (event.location && event.location.toLowerCase().includes(searchTerm)) ||
+                       (event.significance && event.significance.toLowerCase().includes(searchTerm));
+            });
+        }
+        this.renderTimeline();
+        this.attachEventListeners();
+    }
+
     renderCategoryFilters() {
         const categories = this.getCategories();
         const filterContainer = document.getElementById('timeline-filters');
@@ -133,8 +156,17 @@ class RizalTimeline {
         const expandButtons = document.querySelectorAll('.timeline-expand-btn');
         expandButtons.forEach(button => {
             button.addEventListener('click', (e) => {
+                e.stopPropagation();
                 const eventId = e.currentTarget.getAttribute('data-event-id');
                 this.toggleDetails(eventId, e.currentTarget);
+            });
+        });
+
+        // Attach click listeners to timeline content for modal
+        const timelineContents = document.querySelectorAll('.timeline-content');
+        timelineContents.forEach((content, index) => {
+            content.addEventListener('click', () => {
+                this.openTimelineModal(this.filteredData[index]);
             });
         });
     }
@@ -152,11 +184,56 @@ class RizalTimeline {
         }
     }
 
+    openTimelineModal(event) {
+        const hasImage = event.image_filename;
+        
+        let modalHTML = `
+            <div class="gallery-modal active">
+                <div class="gallery-modal-backdrop" onclick="closeTimelineModal()"></div>
+                <div class="gallery-modal-content">
+                    <div class="gallery-modal-header">
+                        <h3>${event.title}</h3>
+                        <div class="gallery-modal-actions">
+                            <button class="modal-btn close-btn" onclick="closeTimelineModal()">
+                                ✕ Close
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-modal-body">
+                        ${hasImage ? `
+                            <div class="gallery-modal-image">
+                                <img src="../../assets/images/${event.image_filename}" alt="${event.title}">
+                            </div>
+                        ` : ''}
+                        <div class="gallery-modal-info">
+                            <p><strong>Date:</strong> ${event.date}</p>
+                            ${event.location ? `<p><strong>Location:</strong> 📍 ${event.location}</p>` : ''}
+                            <p><strong>Category:</strong> ${event.category}</p>
+                            <p>${event.description}</p>
+                            ${event.significance ? `<p><strong>Significance:</strong> ${event.significance}</p>` : ''}
+                            ${event.details && event.details.length > 0 ? `
+                                <p><strong>Additional Details:</strong></p>
+                                <ul style="margin-left: 20px; margin-top: 10px;">
+                                    ${event.details.map(detail => `<li>${detail}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        document.body.insertAdjacentHTML('beforeend', modalHTML);
+        document.body.style.overflow = 'hidden';
+    }
+
     async initialize() {
         const loaded = await this.loadTimelineData();
         if (loaded) {
             this.renderTimeline();
             this.attachEventListeners();
+            this.initializeSearch();
+            this.initializeScrollToTop();
         } else {
             const container = document.getElementById('timeline-container');
             if (container) {
@@ -169,7 +246,51 @@ class RizalTimeline {
             }
         }
     }
+
+    initializeSearch() {
+        const searchInput = document.getElementById('timeline-search');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                this.searchEvents(e.target.value);
+            });
+        }
+    }
+
+    initializeScrollToTop() {
+        const scrollBtn = document.getElementById('scroll-to-top');
+        const mainContent = document.querySelector('.main-content');
+        
+        if (!scrollBtn || !mainContent) return;
+
+        mainContent.addEventListener('scroll', () => {
+            if (mainContent.scrollTop > 300) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            mainContent.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
 }
+
+function closeTimelineModal() {
+    const modal = document.querySelector('.gallery-modal');
+    if (modal) {
+        modal.classList.remove('active');
+        setTimeout(() => {
+            modal.remove();
+            document.body.style.overflow = '';
+        }, 300);
+    }
+}
+
+window.closeTimelineModal = closeTimelineModal;
 
 let timeline;
 
