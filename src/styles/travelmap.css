@@ -1,0 +1,373 @@
+/* Travel Map Styles for Rizal Digital Museum */
+
+.travel-map-wrapper {
+    background: var(--card-bg);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: 0 12px 40px var(--shadow-light);
+    border: 1px solid var(--border-light);
+}
+
+.map-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.map-header h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.map-header p {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+/* World Map Container */
+.world-map-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: 0 4px 20px var(--shadow-medium);
+}
+
+.world-map {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 100 / 60;
+    background: linear-gradient(180deg, #1a3a5c 0%, #0d2137 100%);
+}
+
+.map-svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Map Markers */
+.map-markers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.map-marker {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+.marker-dot {
+    width: 12px;
+    height: 12px;
+    background: var(--gold-primary);
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: all var(--transition-smooth);
+}
+
+.marker-pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background: rgba(212, 175, 55, 0.3);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.map-marker:hover .marker-dot,
+.map-marker.active .marker-dot {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-color: var(--gold-primary);
+}
+
+.map-marker.active .marker-pulse {
+    animation: pulse-ring 1.5s ease-out infinite;
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0;
+    }
+}
+
+.marker-label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4px;
+    font-size: 9px;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+    pointer-events: none;
+}
+
+.map-marker:hover .marker-label,
+.map-marker.active .marker-label {
+    opacity: 1;
+}
+
+/* Location Info Panel */
+.location-info-panel {
+    background: linear-gradient(135deg, #FAF7F0 0%, #F5F1E8 100%);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    border: 1px solid var(--border-light);
+}
+
+.location-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.location-nav-btn {
+    background: var(--gold-primary);
+    color: var(--sidebar-solid);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+}
+
+.location-nav-btn:hover {
+    background: var(--gold-secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+.location-counter {
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.location-details {
+    text-align: center;
+}
+
+.location-header {
+    margin-bottom: var(--spacing-sm);
+}
+
+.location-header h3 {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.location-year {
+    display: inline-block;
+    background: var(--gold-primary);
+    color: var(--sidebar-solid);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.location-description {
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: var(--spacing-md) auto 0;
+}
+
+/* Journey Timeline */
+.journey-timeline {
+    background: var(--sidebar-solid);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+}
+
+.journey-timeline h4 {
+    color: var(--gold-primary);
+    font-family: var(--font-heading);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    text-align: center;
+}
+
+.timeline-scroll {
+    display: flex;
+    gap: var(--spacing-sm);
+    overflow-x: auto;
+    padding: var(--spacing-sm) 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold-primary) var(--sidebar-solid);
+}
+
+.timeline-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.timeline-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.timeline-scroll::-webkit-scrollbar-thumb {
+    background: var(--gold-primary);
+    border-radius: 3px;
+}
+
+.journey-stop {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: var(--radius-sm);
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+    text-align: center;
+    min-width: 100px;
+}
+
+.journey-stop:hover {
+    background: rgba(212, 175, 55, 0.2);
+    border-color: var(--gold-primary);
+}
+
+.journey-stop.active {
+    background: var(--gold-primary);
+    border-color: var(--gold-primary);
+}
+
+.stop-year {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--gold-primary);
+    margin-bottom: 2px;
+}
+
+.journey-stop.active .stop-year {
+    color: var(--sidebar-solid);
+}
+
+.stop-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-light);
+    white-space: nowrap;
+}
+
+.journey-stop.active .stop-name {
+    color: var(--sidebar-solid);
+}
+
+/* Map Module Container */
+#map-module {
+    margin-top: var(--spacing-lg);
+}
+
+.map-module-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.map-back-btn {
+    background: transparent;
+    border: 2px solid var(--gold-primary);
+    color: var(--gold-primary);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+}
+
+.map-back-btn:hover {
+    background: var(--gold-primary);
+    color: var(--sidebar-solid);
+}
+
+.map-module-header h2 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .travel-map-wrapper {
+        padding: var(--spacing-md);
+    }
+
+    .map-header h3 {
+        font-size: 20px;
+    }
+
+    .marker-label {
+        font-size: 7px;
+    }
+
+    .marker-dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .map-marker:hover .marker-dot,
+    .map-marker.active .marker-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .location-header h3 {
+        font-size: 22px;
+    }
+
+    .location-description {
+        font-size: 14px;
+    }
+
+    .journey-stop {
+        min-width: 80px;
+        padding: 8px 12px;
+    }
+
+    .stop-name {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,498 @@
+/* 3D Travel Map Styles for Rizal Digital Museum */
+
+.travel-map-3d-wrapper {
+    background: var(--card-bg);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: 0 12px 40px var(--shadow-light);
+    border: 1px solid var(--border-light);
+}
+
+.map-3d-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.map-3d-header h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.map-3d-header p {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.map-3d-controls {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.map-3d-control-btn {
+    background: var(--sidebar-solid);
+    color: var(--gold-primary);
+    border: 1px solid var(--gold-primary);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+}
+
+.map-3d-control-btn:hover,
+.map-3d-control-btn.active {
+    background: var(--gold-primary);
+    color: var(--sidebar-solid);
+}
+
+/* Globe Container */
+#globe-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    min-height: 350px;
+    max-height: 550px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: #000011;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    margin-bottom: var(--spacing-lg);
+}
+
+#globe-container canvas {
+    cursor: grab;
+}
+
+#globe-container canvas:active {
+    cursor: grabbing;
+}
+
+/* Globe Tooltip */
+.globe-tooltip {
+    background: rgba(30, 30, 50, 0.95);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--gold-primary);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.globe-tooltip strong {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.tooltip-year {
+    color: var(--gold-primary);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Location Image Overlay */
+.location-image-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 280px;
+    background: rgba(20, 20, 40, 0.95);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--gold-primary);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.location-image-overlay.visible {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.image-overlay-content {
+    padding: 16px;
+}
+
+.overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.overlay-header h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.overlay-year {
+    background: var(--gold-primary);
+    color: #1a1a2e;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.overlay-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.overlay-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold-primary);
+}
+
+.image-placeholder span {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.image-placeholder p {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.overlay-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Location Indicator */
+.location-indicator {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.indicator-badge {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.indicator-number {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.indicator-total {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.journey-progress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease, background 0.3s ease;
+}
+
+.progress-label {
+    font-size: 11px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+/* Location Info Panel */
+.location-info-panel-3d {
+    background: linear-gradient(135deg, #FAF7F0 0%, #F5F1E8 100%);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    border: 1px solid var(--border-light);
+}
+
+.location-nav-3d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.location-nav-btn-3d {
+    background: var(--gold-primary);
+    color: var(--sidebar-solid);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.location-nav-btn-3d:hover {
+    background: var(--gold-secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+.location-counter-3d {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 16px;
+    background: rgba(212, 175, 55, 0.15);
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+#location-info {
+    text-align: center;
+    padding: var(--spacing-md) 0;
+}
+
+.location-info-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.location-color-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.location-info-header h3 {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.location-year-badge {
+    display: inline-block;
+    background: var(--gold-primary);
+    color: var(--sidebar-solid);
+    padding: 6px 16px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+}
+
+#location-info .location-description {
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.location-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: var(--spacing-md);
+    padding: 10px 20px;
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px dashed var(--gold-primary);
+    border-radius: 25px;
+    color: var(--gold-secondary);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Journey Timeline 3D */
+.journey-timeline-3d-wrapper {
+    background: var(--sidebar-solid);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+}
+
+.journey-timeline-3d-wrapper h4 {
+    color: var(--gold-primary);
+    font-family: var(--font-heading);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    text-align: center;
+}
+
+#journey-timeline-3d {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: var(--spacing-sm) 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold-primary) var(--sidebar-solid);
+}
+
+#journey-timeline-3d::-webkit-scrollbar {
+    height: 6px;
+}
+
+#journey-timeline-3d::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+#journey-timeline-3d::-webkit-scrollbar-thumb {
+    background: var(--gold-primary);
+    border-radius: 3px;
+}
+
+.journey-stop-3d {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 3px solid;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+    text-align: left;
+    min-width: 110px;
+}
+
+.journey-stop-3d:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.journey-stop-3d.active {
+    background: rgba(212, 175, 55, 0.2);
+    border-color: var(--gold-primary);
+}
+
+.stop-year-3d {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--gold-primary);
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stop-name-3d {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-light);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.journey-stop-3d.active .stop-name-3d {
+    color: #fff;
+}
+
+/* Instructions */
+.map-instructions {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.instruction-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+}
+
+.instruction-icon {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .travel-map-3d-wrapper {
+        padding: var(--spacing-md);
+    }
+
+    #globe-container {
+        height: 350px;
+    }
+
+    .location-image-overlay {
+        width: 200px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .overlay-image {
+        height: 100px;
+    }
+
+    .location-info-header h3 {
+        font-size: 22px;
+    }
+
+    .journey-stop-3d {
+        min-width: 90px;
+        padding: 8px 10px;
+    }
+
+    .map-instructions {
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
+    }
+}
