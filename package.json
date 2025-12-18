@@ -16,7 +16,9 @@
     },
     "win": {
       "icon": "build/icon.ico",
-      "target": ["nsis"]
+      "target": [
+        "nsis"
+      ]
     },
     "mac": {
       "icon": "build/icon.icns",
@@ -24,12 +26,16 @@
     },
     "linux": {
       "icon": "build/icons",
-      "target": ["AppImage", "deb"],
+      "target": [
+        "AppImage",
+        "deb"
+      ],
       "category": "Education"
     }
   },
   "devDependencies": {
     "electron": "^39.2.6",
-    "electron-builder": "^26.0.12"
+    "electron-builder": "^26.0.12",
+    "electron-icon-builder": "^2.0.1"
   }
 }
